@@ -1,0 +1,19 @@
+---
+layout: default
+title: LBRN Newsletters
+---
+<center><a class="button" title="newsletterSignup" target="_blank" href="https://redcap.lbrn.lsu.edu/surveys/?s=TW7JRPLXTN">Newsletter Signup</a></center>
+
+
+<div class="three-card-responsive resources">
+
+
+  {% for post in site.data.newsletter %}
+    <section>
+     <a href="downloads/newsletters/{{post.file}}" target="_blank" ><h2><center>{{post.date}}</center></h2>
+      <img src="downloads/thumbnails/{{post.cover}}" alt="lbrn newsletter {{post.date}}">
+    </a>
+    </section>
+  {% endfor %}
+
+</div>

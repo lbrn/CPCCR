@@ -1,0 +1,400 @@
+// #eventArchiveMedia,
+// #eventLodgingAndExpenses,
+// #eventMediaLink,
+// #eventParticipants,
+// #eventPastParticipants,
+// #eventPresentations,
+// #eventRegistration,
+// #eventSummary,
+// #eventWhenAndWhere ,
+// #eventAwards,
+
+.content {
+  .eventsection {
+    position: relative;
+    margin-bottom: 1.2em;
+
+    h2 {
+      // padding-left: 1em;
+      /* padding-right: 1.5em; */
+      margin-top: unset;
+      background-color: unset;
+      cursor: pointer;
+
+      &:hover {
+        // background-color: #e5f3e6;
+        /* cursor: pointer; */
+        border-radius: 10px;
+      }
+    }
+    @media (min-width: $md) {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      overflow: hidden;
+
+      h2 {
+        // padding-left: 0;
+        background-color: white;
+        cursor: auto;
+
+        &:hover {
+          background-color: unset;
+        }
+      }
+    }
+
+    &#eventRegistration p,
+    &#eventSummary p {
+      // margin-top: 0.5em;
+      font-size: 0.85em;
+    }
+  }
+
+  div.caption {
+    padding-left: 20px;
+    @media (max-width: $md) {
+      padding-left: 0;
+    }
+  }
+}
+
+#eventLodgingAndExpenses,
+#eventWhenAndWhere {
+  section {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .map-icon {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 13.7931%;
+    float: left;
+    margin-right: 3.44828%;
+    margin-top: 0.25em;
+    font-size: 2em;
+  }
+
+  .map-address {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 82.75862%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+#speakers {
+  overflow: hidden;
+  *zoom: 1;
+
+  section {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h3 {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 65.51724%;
+    float: right;
+    margin-right: 3.44828%;
+    clear: unset;
+    margin-top: 0.8em;
+    cursor: auto;
+  }
+
+  p {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 65.51724%;
+    float: right;
+    margin-right: 3.44828%;
+    margin-top: 0.25em;
+    line-height: 1.4;
+    &.bio {
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
+
+  img {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+    margin-left: 0;
+    margin-top: 1.2em;
+  }
+}
+#awards {
+  #speakers {
+    display: flex;
+    flex-direction: column;
+    section {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 50px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+    }
+    .text {
+      font-size: 0.6em;
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+    }
+    * {
+      width: auto;
+    }
+
+    img {
+      // max-width: 150px;
+      margin-top: 0;
+      align-self: flex-start;
+      width: 100px;
+      height: auto;
+    }
+    h3 {
+      float: none;
+      padding-left: 0;
+      border: none;
+      font-size: 0.8em;
+      margin-bottom: 1em;
+    }
+    h4 {
+      margin-top: 0;
+      font-size: 1em;
+      // margin: 0.25em 0;
+      // margin-top: 0.25em;
+      margin-right: 0px;
+      margin-top: 1.2em;
+      padding-left: 1em;
+      // clear: both;
+      border-left: 8px solid #8ECB91;
+    }
+    @media (max-width: $md ) {
+      img {
+        max-width: 200px;
+      }
+      a, .text {
+        // flex: 1 1 100%;
+      }
+      a {
+        flex: 1 0 90px;
+      }
+      .text {
+        margin-left: 25px;
+        // margin-top: 50px;
+      }
+      section {
+        // flex-wrap: wrap;
+      }
+    }
+  }
+
+}
+.seminar-speaker {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+
+  img {
+    margin: auto;
+    display: block;
+  }
+
+  h3 {
+    margin-top: 1em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  div {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    position: relative;
+
+    i {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 13.7931%;
+      float: left;
+      margin-right: 3.44828%;
+      margin-left: 0;
+      text-align: center;
+      margin-top: 0.3em;
+    }
+
+    p {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 82.75862%;
+      float: right;
+      margin-right: 0;
+      text-align: left;
+    }
+  }
+}
+
+#eventSchedule {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+    .day {
+      background-color: $sexta;
+      padding: 25px;
+      display: flex;
+      border-radius: 6px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex: 1 1 100%;
+      a {
+        width: 100%;
+        height: 100%;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      h2 {
+        background-color: transparent;
+        flex: 1 0 100%;
+        margin: 20px 0;
+        font-weight: bold;
+      }
+      div {
+        flex: 0 1 50%;
+        padding: 10px;
+        background-color: $aboutcores;
+        // border-top-left-radius: 6px;
+        // border-bottom-left-radius: 6px;
+        border-radius: 6px;
+        transition: 0.4s;
+        margin-right: 5px;
+        flex-basis: calc(50% - 10px);
+        p, h3, h4, span {
+          color: $primary;
+        }
+        &.nolink {
+          h3 {
+            &:hover {
+
+              cursor: default;
+            }
+          }
+        }
+        p {
+          font-size: 20px;
+          line-height: 1.1;
+          border-top: 2px solid $primary;
+          padding-top: 0.5em;
+
+        }
+        h3 {
+          border: none;
+          padding-left: 0;
+          font-size: 24px;
+          margin-top: 0;
+        }
+        span {
+            // font-style: italic;
+            font-weight: 400;
+            font-size: 20px;
+
+        }
+        h4 {
+          font-size: 18px;
+          font-weight: normal;
+          margin-top: 0.5em;
+          font-style: italic;
+        }
+        &.link {
+          &:hover {
+            text-decoration: none;
+            color: white;
+            background-color: $primary;
+            p, h3, h4,  span {
+              color: white;
+            }
+            p {
+              border-top: 2px solid white;
+            }
+          }
+        }
+        &:nth-child(3n) {
+          background-color: $quadiary;
+          color: $primary;
+          // border-top-right-radius: 6px;
+          // border-bottom-right-radius: 6px;
+          margin-left: 5px;
+          margin-right: 0;
+          &.link {
+            &:hover {
+              text-decoration: none;
+              // color: $secondary;
+              color: white;
+              background-color: $primary;
+              p, h3, h4,  span {
+                color: white;
+              }
+            }
+          }
+
+        }
+        &:only-child {
+          border-radius: 6px;
+        }
+        @media (max-width: $md) {
+          margin: 0;
+          flex: 1 1 100%;
+          margin-bottom: 1em;
+        }//md
+      }
+    }
+
+  }
+}
