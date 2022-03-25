@@ -1,8 +1,12 @@
 
+$color1: white;
+$color1-d1: #B8D8F5;
+$color2: #800020;
+$white: white;
 //colors - normal
-$primary: #2C3D6C !default;
-$secondary: #8ECB91 !default;
-$tertiary: #7dc380 !default;
+$primary: $color2 !default;
+$secondary: $color1 !default;
+$tertiary: $color2 !default;
 $quadiary: #c2e3c4 !default;
 $pentia: #def0df !default;
 $sexta: #d4ebd5 !default;
@@ -14,7 +18,9 @@ $aboutcoreshover: #e5f3e6 !default;
 $viewall: #5ab35e !default;
 $primaryhover: #4a66b4 !default;
 
-
+$viewall: $color1;
+$aboutcoreshover: $color2;
+// $quadiary: $color2;
 
 
 
@@ -34,6 +40,7 @@ $mapfontbold: roundedMplus1cExtraBold;
 //misc
 $filter:  none !default;
 $transition: filter .2s ease;
+$t: 0.3s;
 
 //Breakpoints
 $zero: 0;

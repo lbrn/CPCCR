@@ -1,0 +1,23 @@
+---
+layout: home
+title: CPCCR Home
+tag: home
+---
+<div class="layout">
+  <section class="news" id="newsContainer">
+    <!-- <h2>News</h2> -->
+
+    {% for post in site.tags.featured %}
+    {% include news-list-item-featured.html %}
+    {% endfor %}
+
+    {% for post in site.tags.news limit:4 %}
+    {% include news-list-item.html %}
+    {% endfor %}
+
+    <!--End of NEWS ITEM-->
+    <div class="view-all">
+      <a class="view-all" href="/news/">News Archives</a>
+    </div>
+  </section>
+</div>

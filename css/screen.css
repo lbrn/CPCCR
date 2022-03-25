@@ -126,7 +126,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: unset;
-  border: #8ECB91;
+  border: white;
   border-top-style: none;
   width: 14.28%;
 }
@@ -187,7 +187,7 @@
       -ms-flex: 1 1 2em;
           flex: 1 1 2em;
   /* height:2em; */
-  border: #8ECB91;
+  border: white;
   border-style: none none none solid;
   height: 2em;
   width: 52%;
@@ -206,7 +206,7 @@
 }
 #core-list .horiline {
   /* height:2em; */
-  border: #8ECB91;
+  border: white;
   border-style: none none solid none;
   /* height: 2em; */
   width: 100%;
@@ -216,7 +216,7 @@
   height: 100%;
 }
 #core-list .horiline-l {
-  border: #8ECB91;
+  border: white;
   border-style: none none solid none;
   margin-right: 50%;
   width: 50%;
@@ -242,7 +242,7 @@
   width: 50%;
 }
 #core-list .horiline-r {
-  border: #8ECB91;
+  border: white;
   border-style: solid none none none;
   margin-left: 47.5%;
   width: 52.5%;
@@ -268,7 +268,7 @@
   width: 50%;
 }
 #core-list span {
-  border: #8ECB91;
+  border: white;
   border-style: solid none none none;
   height: unset;
   width: 100%;
@@ -390,17 +390,17 @@
 }
 .mapcontainer a div {
   opacity: 0.5;
-  border-bottom: solid 1.5px #2C3D6C;
+  border-bottom: solid 1.5px #800020;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2x ease-in;
 }
 .mapcontainer a div:hover {
-  background-color: rgba(142, 203, 145, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2x ease-in;
-  border: solid 1.5px #2C3D6C;
+  border: solid 1.5px #800020;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -614,11 +614,11 @@ main.research a.btn {
       -ms-flex-item-align: auto;
               -ms-grid-row-align: auto;
           align-self: auto;
-  color: #2C3D6C;
+  color: #800020;
   margin-top: 0;
 }
 main.research a.btn:hover {
-  background-color: #8ECB91;
+  background-color: white;
   color: white;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -814,13 +814,13 @@ main.research a.btn:hover {
 }
 .fundingop a.btn {
   background-color: #def0df;
-  color: #2C3D6C;
+  color: #800020;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2x ease-in;
 }
 .fundingop a.btn:hover {
-  background-color: #8ECB91;
+  background-color: white;
   color: white;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -916,12 +916,12 @@ main.research a.btn:hover {
   /* float:left; */
 }
 .services .row:nth-of-type(even) .btn {
-  color: #2C3D6C;
-  background-color: #8ECB91;
+  color: #800020;
+  background-color: white;
 }
 .services .row:nth-of-type(even) .btn:hover {
   color: white;
-  color: #5ab35e;
+  color: white;
   background-color: #def0df;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -1057,12 +1057,12 @@ main.research a.btn:hover {
   background-color: transparent;
 }
 .services .row .service:nth-of-type(even) .btn {
-  color: #2C3D6C;
-  background-color: #8ECB91;
+  color: #800020;
+  background-color: white;
 }
 .services .row .service:nth-of-type(even) .btn:hover {
   color: white;
-  color: #5ab35e;
+  color: white;
   background-color: #def0df;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -1085,7 +1085,7 @@ main.research a.btn:hover {
   display: inline;
 }
 .services .row .service a {
-  color: #2C3D6C;
+  color: #800020;
   -webkit-box-flex: 0;
   -webkit-flex: 0 1 200px;
      -moz-box-flex: 0;
@@ -1103,7 +1103,7 @@ main.research a.btn:hover {
   -webkit-transition: all 0.2x ease-in;
 }
 .services .row .service a:hover {
-  color: #5ab35e;
+  color: white;
   text-decoration: none;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -1293,7 +1293,7 @@ section.directory article.person a {
   display: block;
 }
 section.directory article.person a:hover h4, section.directory article.person a:hover h5, section.directory article.person a:hover h6 {
-  color: #2C3D6C;
+  color: #800020;
 }
 section.directory article.person.npi {
   margin-bottom: 10px;
@@ -1449,7 +1449,7 @@ section.directory.projectinvestigators article.person {
   margin-top: 0.4em;
 }
 .people i.collapsetstyle {
-  color: #8ECB91;
+  color: white;
   cursor: pointer;
 }
 @media (min-width: 667px) {
@@ -1507,7 +1507,7 @@ section.directory.projectinvestigators article.person {
 
 .pubmed-link {
   background-color: #d4ebd5;
-  color: #2C3D6C;
+  color: #800020;
   display: inline-block;
   font-weight: 400;
   /* color: #212529; */
@@ -1534,7 +1534,7 @@ section.directory.projectinvestigators article.person {
 }
 
 .pubmed-link:hover {
-  background-color: #8ECB91;
+  background-color: white;
   color: #fff;
 }
 
@@ -1679,7 +1679,7 @@ section.directory.projectinvestigators article.person {
   padding-left: 11px;
   clear: both;
   font-size: 21px;
-  border-left: 8px solid #8ECB91;
+  border-left: 8px solid white;
   font-family: "Ubuntu", sans-serif !important;
 }
 .nihlinks ul li {
@@ -1791,7 +1791,7 @@ section.directory.projectinvestigators article.person {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background-color: #2C3D6C;
+  background-color: #800020;
   margin: 0.5em 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -1804,12 +1804,12 @@ section.directory.projectinvestigators article.person {
   text-decoration: none;
 }
 .news .view-all a:hover, div.content .news .view-all a:hover {
-  color: #8ECB91;
+  color: white;
 }
 .news h2, div.content .news h2 {
   font-size: 2.5em;
   font-family: "Open Sans", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   margin-top: 0.5em;
 }
 .news article, div.content .news article {
@@ -1830,7 +1830,7 @@ section.directory.projectinvestigators article.person {
   font-weight: 700;
   margin-top: 1.5em;
   font-family: "Ubuntu", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1843,7 +1843,7 @@ section.directory.projectinvestigators article.person {
   font-weight: 500 !important;
 }
 .news article .post-link, div.content .news article .post-link {
-  color: #8ECB91;
+  color: white;
   font-size: 1em;
   font-family: "Ubuntu", sans-serif;
   float: right;
@@ -1868,7 +1868,7 @@ section.directory.projectinvestigators article.person {
   font-size: 1em;
   line-height: 1.2em;
   font-family: "Ubuntu", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
 }
 .news article img, div.content .news article img {
   -moz-box-sizing: border-box;
@@ -1891,7 +1891,7 @@ section.directory.projectinvestigators article.person {
   margin-left: 0;
   margin-right: 0;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #8ECB91;
+  color: white;
   font-weight: 700;
   font-size: 2em;
   line-height: 1.25em;
@@ -1920,7 +1920,7 @@ section.directory.projectinvestigators article.person {
           border-radius: 3%;
 }
 .news article.featured h3, div.content .news article.featured h3 {
-  color: #2C3D6C;
+  color: #800020;
 }
 .news article.linkarticle:hover, div.content .news article.linkarticle:hover {
   background-color: #def0df;
@@ -1933,7 +1933,7 @@ section.directory.projectinvestigators article.person {
   color: #3d8340;
 }
 .news article.linkarticle:hover h3.override, div.content .news article.linkarticle:hover h3.override {
-  color: #2C3D6C;
+  color: #800020;
   cursor: pointer;
 }
 .news article.linkarticle:hover.featured, div.content .news article.linkarticle:hover.featured {
@@ -1944,7 +1944,7 @@ section.directory.projectinvestigators article.person {
   transition: all 0.3s ease-in-out;
 }
 .news article.linkarticle:hover.featured h3, div.content .news article.linkarticle:hover.featured h3 {
-  color: #2C3D6C;
+  color: #800020;
 }
 .news article:hover, div.content .news article:hover {
   background-color: #def0df;
@@ -1954,7 +1954,7 @@ section.directory.projectinvestigators article.person {
   transition: all 0.3s ease-in-out;
 }
 .news article:hover h3, div.content .news article:hover h3 {
-  color: #8ECB91;
+  color: white;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1962,7 +1962,7 @@ section.directory.projectinvestigators article.person {
   transition: all 0.3s ease-in-out;
 }
 .news article:hover h3.override, div.content .news article:hover h3.override {
-  color: #2C3D6C;
+  color: #800020;
 }
 .news article:hover .post-link, div.content .news article:hover .post-link {
   color: #3d8340;
@@ -2116,7 +2116,7 @@ section.directory.projectinvestigators article.person {
      -moz-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
-  background-color: #8ECB91;
+  background-color: white;
   padding-bottom: 1.7em;
   margin-top: 0;
   float: right;
@@ -2296,7 +2296,7 @@ section.directory.projectinvestigators article.person {
 }
 .events .view-all {
   /* background-color: $secondary; */
-  color: #2C3D6C;
+  color: #800020;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -2316,7 +2316,7 @@ section.directory.projectinvestigators article.person {
   }
 }
 .events .view-all:hover {
-  color: #5ab35e;
+  color: white;
 }
 .events.highlights section .details p.title {
   font-size: 28px;
@@ -2399,7 +2399,7 @@ section.directory.projectinvestigators article.person {
 .events h2 {
   font-size: 2em;
   font-family: "Open Sans", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   margin: 1em 0;
   text-align: center;
   line-height: 0.5em;
@@ -2407,7 +2407,7 @@ section.directory.projectinvestigators article.person {
 .events section {
   padding-top: 15px;
   float: left;
-  border-bottom: 1px solid #2C3D6C;
+  border-bottom: 1px solid #800020;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2523,8 +2523,8 @@ section.directory.projectinvestigators article.person {
   width: 48%;
   float: left;
   font-family: "Ubuntu", sans-serif;
-  color: #2C3D6C;
-  border-right: 1px solid #2C3D6C;
+  color: #800020;
+  border-right: 1px solid #800020;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -2632,7 +2632,7 @@ section.directory.projectinvestigators article.person {
 }
 .events section .details {
   font-family: "Ubuntu", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   -webkit-box-flex: 0;
   -webkit-flex: 0 1 47%;
      -moz-box-flex: 0;
@@ -3068,7 +3068,7 @@ section.directory.projectinvestigators article.person {
           flex-basis: calc(50% - 10px);
 }
 #eventSchedule .row .day div p, #eventSchedule .row .day div h3, #eventSchedule .row .day div h4, #eventSchedule .row .day div span {
-  color: #2C3D6C;
+  color: #800020;
 }
 #eventSchedule .row .day div.nolink h3:hover {
   cursor: default;
@@ -3076,7 +3076,7 @@ section.directory.projectinvestigators article.person {
 #eventSchedule .row .day div p {
   font-size: 20px;
   line-height: 1.1;
-  border-top: 2px solid #2C3D6C;
+  border-top: 2px solid #800020;
   padding-top: 0.5em;
 }
 #eventSchedule .row .day div h3 {
@@ -3098,7 +3098,7 @@ section.directory.projectinvestigators article.person {
 #eventSchedule .row .day div.link:hover {
   text-decoration: none;
   color: white;
-  background-color: #2C3D6C;
+  background-color: #800020;
 }
 #eventSchedule .row .day div.link:hover p, #eventSchedule .row .day div.link:hover h3, #eventSchedule .row .day div.link:hover h4, #eventSchedule .row .day div.link:hover span {
   color: white;
@@ -3108,14 +3108,14 @@ section.directory.projectinvestigators article.person {
 }
 #eventSchedule .row .day div:nth-child(3n) {
   background-color: #c2e3c4;
-  color: #2C3D6C;
+  color: #800020;
   margin-left: 5px;
   margin-right: 0;
 }
 #eventSchedule .row .day div:nth-child(3n).link:hover {
   text-decoration: none;
   color: white;
-  background-color: #2C3D6C;
+  background-color: #800020;
 }
 #eventSchedule .row .day div:nth-child(3n).link:hover p, #eventSchedule .row .day div:nth-child(3n).link:hover h3, #eventSchedule .row .day div:nth-child(3n).link:hover h4, #eventSchedule .row .day div:nth-child(3n).link:hover span {
   color: white;
@@ -3582,7 +3582,7 @@ section.directory.projectinvestigators article.person {
 }
 .navdropdownbig ul li ul li {
   display: block;
-  color: #2C3D6C;
+  color: #800020;
   width: 9em;
 }
 .navdropdownbig ul li ul li a {
@@ -3611,7 +3611,7 @@ section.directory.projectinvestigators article.person {
 }
 
 .navdropdown {
-  background-color: #8ECB91;
+  background-color: white;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -3663,9 +3663,9 @@ section.directory.projectinvestigators article.person {
   max-width: 5em;
 }
 .navdropdown ul li ul li a {
-  background-color: #8ECB91;
+  background-color: white;
   /* background-color: $sexta; */
-  color: #2C3D6C;
+  color: #800020;
   font-size: 1rem;
   font-weight: 300;
   margin: unset;
@@ -3690,10 +3690,10 @@ section.directory.projectinvestigators article.person {
 }
 .navdropdown ul li ul li a:hover {
   background-color: #d4ebd5;
-  color: #2C3D6C;
+  color: #800020;
 }
 .navdropdown ul li a:hover {
-  background-color: #7dc380;
+  background-color: #800020;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -3728,7 +3728,7 @@ section.directory.projectinvestigators article.person {
   display: block;
   /* color: red; */
   color: white;
-  color: #2C3D6C;
+  color: #800020;
   text-decoration: none;
   padding: 1em 0;
   display: block;
@@ -3740,7 +3740,7 @@ section.directory.projectinvestigators article.person {
   color: white;
 }
 .navdropdown li a.button {
-  border: 2px solid #2C3D6C;
+  border: 2px solid #800020;
   -webkit-border-radius: 25px;
      -moz-border-radius: 25px;
           border-radius: 25px;
@@ -3752,7 +3752,7 @@ section.directory.projectinvestigators article.person {
   float: none;
 }
 .navdropdown li a.button:hover {
-  background-color: #2C3D6C;
+  background-color: #800020;
   color: white;
 }
 .navdropdown li.right {
@@ -3936,7 +3936,7 @@ section.directory.projectinvestigators article.person {
 }
 .navdropdown#pi-filter p {
   font-style: italic;
-  color: #8ECB91;
+  color: white;
   padding-bottom: 0.5em;
   padding-left: 0.2em;
   text-transform: uppercase;
@@ -3952,11 +3952,11 @@ section.directory.projectinvestigators article.person {
   display: block;
   padding: 0.1em;
   /* margin: 0 .2em; */
-  color: #8ECB91;
+  color: white;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;
-  border: 1px solid #8ECB91;
+  border: 1px solid white;
   -webkit-transition: all 0.1s;
   -o-transition: all 0.1s;
   -moz-transition: all 0.1s;
@@ -3964,7 +3964,7 @@ section.directory.projectinvestigators article.person {
 }
 .navdropdown#pi-filter ul li:hover {
   /* background-color: #6bbb6f; */
-  background-color: #8ECB91;
+  background-color: white;
   color: white;
   cursor: pointer;
 }
@@ -3972,7 +3972,7 @@ section.directory.projectinvestigators article.person {
   background-color: #4da651;
 }
 .navdropdown#pi-filter ul .on {
-  background-color: #8ECB91;
+  background-color: white;
   color: white;
   /* color:$primary; */
 }
@@ -3985,7 +3985,7 @@ section.directory.projectinvestigators article.person {
 
 .about #lbrnEventSidebar,
 .content #lbrnEventSidebar {
-  background-color: #8ECB91;
+  background-color: white;
   float: right;
 }
 .about #lbrnEventSidebar ul,
@@ -3995,7 +3995,7 @@ section.directory.projectinvestigators article.person {
 }
 .about #lbrnEventSidebar ul li,
 .content #lbrnEventSidebar ul li {
-  border-bottom: 1px solid #2C3D6C;
+  border-bottom: 1px solid #800020;
 }
 .about #lbrnEventSidebar ul a,
 .content #lbrnEventSidebar ul a {
@@ -4020,7 +4020,7 @@ section.directory.projectinvestigators article.person {
 }
 .about #lbrnEventSidebar li a,
 .content #lbrnEventSidebar li a {
-  color: #2C3D6C;
+  color: #800020;
 }
 .about #lbrnEventSidebar li a:hover,
 .content #lbrnEventSidebar li a:hover {
@@ -4031,7 +4031,7 @@ section.directory.projectinvestigators article.person {
 }
 .about #lbrnEventSidebar li:hover,
 .content #lbrnEventSidebar li:hover {
-  color: #5ab35e;
+  color: white;
   text-decoration: none;
 }
 
@@ -4057,7 +4057,7 @@ section.directory.projectinvestigators article.person {
 #lbrnEventSidebar #lbrnEventSidebarUl .nolink:hover {
   background-color: transparent;
   text-decoration: none;
-  color: #2C3D6C;
+  color: #800020;
 }
 #lbrnEventSidebar #lbrnEventSidebarUl.collapse {
   display: block;
@@ -4083,7 +4083,7 @@ section.directory.projectinvestigators article.person {
   margin-left: 0;
   margin-right: 0;
   text-decoration: none;
-  color: #2C3D6C;
+  color: #800020;
   text-align: center;
   text-transform: capitalize;
   list-style: none;
@@ -4110,8 +4110,8 @@ section.directory.projectinvestigators article.person {
   z-index: 1000;
   padding-left: 5%;
   padding-right: 5%;
-  border-bottom: 1px solid #2C3D6C;
-  border-top: 1px solid #2C3D6C;
+  border-bottom: 1px solid #800020;
+  border-top: 1px solid #800020;
   margin-bottom: unset;
 }
 #lbrnEventSidebar ul li {
@@ -4131,7 +4131,7 @@ section.directory.projectinvestigators article.person {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
   line-height: 1.2em;
-  color: #2C3D6C;
+  color: #800020;
 }
 #lbrnEventSidebar ul li:hover {
   -moz-transition: all 0.2s ease-in;
@@ -4139,7 +4139,7 @@ section.directory.projectinvestigators article.person {
   -webkit-transition: all 0.2x ease-in;
   color: white;
   background-color: #e5f3e6;
-  color: #5ab35e;
+  color: white;
 }
 #lbrnEventSidebar ul a {
   -moz-box-sizing: border-box;
@@ -4150,7 +4150,7 @@ section.directory.projectinvestigators article.person {
   margin-left: 0;
   margin-right: 0;
   text-decoration: none;
-  color: #2C3D6C;
+  color: #800020;
   text-align: center;
   text-transform: capitalize;
 }
@@ -4167,7 +4167,7 @@ section.directory.projectinvestigators article.person {
   -webkit-transition: all 0.2x ease-in;
 }
 #lbrnEventSidebar li:hover a {
-  color: #5ab35e;
+  color: white;
   text-decoration: none;
 }
 #lbrnEventSidebar li:hover a:hover {
@@ -4177,7 +4177,7 @@ section.directory.projectinvestigators article.person {
   -webkit-transition: all 0.2x ease-in;
 }
 #lbrnEventSidebar li a {
-  color: #2C3D6C;
+  color: #800020;
 }
 #lbrnEventSidebar .active {
   background-color: #c2e3c4 !important;
@@ -4217,7 +4217,7 @@ body footer {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
-  background-color: #2C3D6C;
+  background-color: #800020;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
      -moz-box-pack: justify;
@@ -4289,7 +4289,7 @@ body footer .quicklinks ul {
           flex: 1 1 auto;
 }
 body footer .quicklinks ul li {
-  color: #8ECB91;
+  color: white;
   margin-bottom: 5px;
   font-weight: 300;
 }
@@ -4539,12 +4539,12 @@ img:hover {
 
 .filters .active {
   font-weight: bold;
-  color: #5ab35e !important;
+  color: white !important;
 }
 
 a.btn.grn {
-  background-color: #8ECB91;
-  color: #2C3D6C;
+  background-color: white;
+  color: #800020;
 }
 a.btn.grn:hover {
   background-color: #def0df;
@@ -4552,7 +4552,7 @@ a.btn.grn:hover {
 
 .header h1 {
   background-color: #c2e2c4;
-  color: #2C3D6C;
+  color: #800020;
   line-height: 2.2;
   padding-bottom: 5px;
   margin-bottom: 0;
@@ -4619,7 +4619,7 @@ a.btn.grn:hover {
 }
 .vidsection div h2 {
   font-size: 0.8em;
-  color: #2C3D6C;
+  color: #800020;
   margin-top: 0 !important;
   text-align: left;
   font-weight: bold;
@@ -4717,14 +4717,14 @@ a.btn.grn:hover {
   font-size: 1.5em;
   font-weight: 700;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   text-align: center;
   padding: 0.5em;
   width: auto;
   /* width:100%; */
 }
 #newsSidebarButton h1:hover {
-  background-color: #8ECB91;
+  background-color: white;
 }
 
 #newsSidebarmobile {
@@ -4763,7 +4763,7 @@ a.btn.grn:hover {
   font-size: 1.2em;
   font-weight: 400;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   text-align: center;
   padding: 0.5em;
   width: 100%;
@@ -4888,7 +4888,7 @@ a.btn.grn:hover {
 
 .natural-link {
   text-decoration: none;
-  color: #2C3D6C;
+  color: #800020;
 }
 
 .natural-link.natural-link:hover {
@@ -4932,7 +4932,7 @@ body p {
 }
 body p.natural-link a {
   text-decoration: none;
-  color: #2C3D6C;
+  color: #800020;
 }
 body p.natural-link:hover a {
   color: #161e36;
@@ -4943,16 +4943,16 @@ body h1 {
 }
 body a {
   text-decoration: none;
-  color: #8ECB91;
+  color: white;
 }
 body a:hover {
-  color: #5ab35e;
+  color: white;
 }
 body a.green {
-  color: #5ab35e;
+  color: white;
 }
 body a.green:hover {
-  color: #459548;
+  color: #e6e6e6;
 }
 @media (max-width: 667px) {
   body.homepage {
@@ -5000,8 +5000,8 @@ body a.green:hover {
 
 a.button {
   padding: 0.2em 1.2em;
-  background-color: #8ECB91;
-  color: #2C3D6C;
+  background-color: white;
+  color: #800020;
   text-align: center;
   font-size: 1.1em;
   font-family: "Ubuntu", sans-serif;
@@ -5014,17 +5014,17 @@ a.button {
 }
 
 a.button:hover {
-  background-color: #2C3D6C;
+  background-color: #800020;
   color: white;
 }
 
 a.button .secondary-button {
-  border: 1px solid #8ECB91;
+  border: 1px solid white;
   background-color: white;
 }
 
 a.button .secondary-button:hover {
-  background-color: #8ECB91;
+  background-color: white;
 }
 
 .hidden {
@@ -5136,7 +5136,7 @@ header h1 {
   float: left;
   font-size: 2em;
   font-family: "Open Sans", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
 }
 
 .mediapage p {
@@ -5181,7 +5181,7 @@ main div.content {
   line-height: 1.8em;
   /* color: red; */
   /* cust */
-  color: #2C3D6C;
+  color: #800020;
   /* padding-top: 1em; */
   padding-bottom: 2em;
   padding-left: 0;
@@ -5202,7 +5202,7 @@ main div.content {
 main div.content h2 {
   margin-top: 0.5em;
   font-family: "Open Sans", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   line-height: 1.5em;
 }
 main div.content h3 {
@@ -5211,7 +5211,7 @@ main div.content h3 {
   margin-top: 1.2em;
   padding-left: 1em;
   clear: both;
-  border-left: 8px solid #8ECB91;
+  border-left: 8px solid white;
 }
 main div.content h3:hover {
   cursor: pointer;
@@ -5242,7 +5242,7 @@ main div.content p.sub-p {
 }
 main div.content #faq p {
   margin-top: 0.25em;
-  border-bottom: 1px #2C3D6C solid;
+  border-bottom: 1px #800020 solid;
   cursor: pointer;
 }
 main div.content #faq p:hover {
@@ -5250,7 +5250,7 @@ main div.content #faq p:hover {
   border-bottom: 1px #425ca2 solid;
 }
 main div.content #faq ul {
-  border-bottom: 3px #2C3D6C solid;
+  border-bottom: 3px #800020 solid;
   margin-left: 0;
   padding-left: 2.8em;
   display: none;
@@ -5300,7 +5300,7 @@ main div.content .col-split-right {
 }
 main div.content .accordianTrigger {
   margin-top: 0.25em;
-  border-bottom: 1px #2C3D6C solid;
+  border-bottom: 1px #800020 solid;
   cursor: pointer;
 }
 main div.content .accordianTrigger:hover {
@@ -5308,7 +5308,7 @@ main div.content .accordianTrigger:hover {
   border-bottom: 1px #425ca2 solid;
 }
 main div.content .accordianSection {
-  border-bottom: 3px #2C3D6C solid;
+  border-bottom: 3px #800020 solid;
   margin-left: 0;
   padding-left: 2.8em;
   display: none;
@@ -5419,7 +5419,7 @@ main div.content .content-sidebar {
 
 #faq p {
   margin-top: 0.25em;
-  border-bottom: 1px #2C3D6C solid;
+  border-bottom: 1px #800020 solid;
   cursor: pointer;
 }
 #faq p:hover {
@@ -5427,7 +5427,7 @@ main div.content .content-sidebar {
   border-bottom: 1px #425ca2 solid;
 }
 #faq ul {
-  border-bottom: 3px #2C3D6C solid;
+  border-bottom: 3px #800020 solid;
   margin-left: 0;
   padding-left: 2.8em;
   display: none;
@@ -5483,7 +5483,7 @@ img.fit {
 
 .accordianTrigger {
   margin-top: 0.25em;
-  border-bottom: 1px #2C3D6C solid;
+  border-bottom: 1px #800020 solid;
   cursor: pointer;
 }
 .accordianTrigger:hover {
@@ -5492,7 +5492,7 @@ img.fit {
 }
 
 .accordianSection {
-  border-bottom: 3px #2C3D6C solid;
+  border-bottom: 3px #800020 solid;
   margin-left: 0;
   padding-left: 2.8em;
   display: none;
@@ -5500,7 +5500,7 @@ img.fit {
 
 .pagination a {
   background-color: #b1dbb3;
-  color: #2C3D6C;
+  color: #800020;
 }
 @media (max-width: 667px) {
   .pagination a.next, .pagination a.previous {
@@ -5508,12 +5508,12 @@ img.fit {
   }
 }
 .pagination a:hover {
-  background-color: #7dc380;
+  background-color: #800020;
   color: white;
 }
 .pagination span.next, .pagination span.previous {
   background-color: #def0df;
-  color: #2C3D6C;
+  color: #800020;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -5576,7 +5576,7 @@ img.fit {
           border-radius: 6px;
   margin: 2% 5%;
   padding-bottom: 2em;
-  background-color: #e5f3e6;
+  background-color: #800020;
   position: relative;
 }
 .four-card-responsive section h2,
@@ -5587,7 +5587,7 @@ img.fit {
   text-transform: none !important;
   clear: both;
   padding: 0.5em;
-  color: #2C3D6C;
+  color: #800020;
   font-weight: 700;
   /* commented out for two card responsive stuff */
   font-family: "Open Sans Condensed", sans-serif !important;
@@ -5606,7 +5606,7 @@ img.fit {
   margin-left: 3.44828%;
   margin-top: unset !important;
   padding: 2.5%;
-  color: #2C3D6C;
+  color: #800020;
   font-family: "Ubuntu", sans-serif;
   line-height: 1.25em;
   -moz-hyphens: auto;
@@ -5836,7 +5836,7 @@ img.fit {
   font-size: 2.4em;
   line-height: 1.2em;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -5886,7 +5886,7 @@ img.fit {
 #lbrnHighlightHeader .imagebox #quickReference p {
   margin: 2em 1em 1em;
   font-family: "Ubuntu", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
 }
 #lbrnEventHeader div.caption,
 #lbrnHighlightHeader div.caption {
@@ -5906,13 +5906,13 @@ img.fit {
   font-size: 2.4em;
   line-height: 1.2em;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
 }
 #lbrnEventHeader div.caption p,
 #lbrnHighlightHeader div.caption p {
   font-size: 1.2em;
   font-family: "Ubuntu", sans-serif;
-  color: #2C3D6C;
+  color: #800020;
   margin-top: 0.5em;
 }
 #lbrnEventHeader div.caption #date,
@@ -5959,7 +5959,7 @@ img.fit {
 }
 
 .event-section-head {
-  background-color: #8ECB91;
+  background-color: white;
   /* width: 80%; */
   display: inline-block;
   height: 2em;
@@ -6003,7 +6003,7 @@ div.chooseTypeInline div {
   width: 30%;
   height: 50px;
   overflow: hidden;
-  background: #8ECB91;
+  background: white;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -6039,7 +6039,7 @@ div.chooseTypeInline div label:hover {
 
 #mobileChooseType {
   position: fixed;
-  background-color: #8ECB91;
+  background-color: white;
   top: -20%;
   left: 0;
   width: 100%;
@@ -6082,7 +6082,7 @@ div.chooseTypeInline div label:hover {
           border-radius: 50%;
   width: 1em;
   height: 1em;
-  border: 2px solid #2C3D6C;
+  border: 2px solid #800020;
   -webkit-transition: 0.2s all linear;
   -o-transition: 0.2s all linear;
   -moz-transition: 0.2s all linear;
@@ -6093,7 +6093,7 @@ div.chooseTypeInline div label:hover {
   top: 0.25em;
 }
 #mobileChooseType div.chooseType input:checked {
-  border: 6px solid #2C3D6C;
+  border: 6px solid #800020;
 }
 #mobileChooseType div.chooseType input:hover {
   color: #425ca2;
@@ -6177,7 +6177,7 @@ i.collapsetstyle.collapsed:before {
   /* margin-left: 3.44828%; */
   margin-top: unset !important;
   padding: 1.5%;
-  color: #2C3D6C !important;
+  color: #800020 !important;
   font-family: "Ubuntu", sans-serif;
   line-height: 1.25em;
   -moz-hyphens: auto;
@@ -6335,7 +6335,7 @@ section.cores ul li.active:hover {
   cursor: default;
 }
 section.cores ul li:hover {
-  background-color: #e5f3e6;
+  background-color: #800020;
   cursor: pointer;
 }
 section.cores #core-swap {
@@ -6362,7 +6362,7 @@ section.cores #core-swap a {
 section.cores #core-swap a.title {
   margin: 1em 0 0;
   float: left;
-  color: #2C3D6C;
+  color: #800020;
 }
 section.cores #core-swap p {
   font-size: 0.8em;
@@ -6460,7 +6460,7 @@ section.cores #core-swap ul li:hover {
 
 .videorepo a {
   text-decoration: none;
-  color: #8ECB91;
+  color: white;
   margin: 0;
   padding: 0;
   border: 0;
@@ -6831,7 +6831,7 @@ section.cores #core-swap ul li:hover {
     font-size: 1.2em;
     font-weight: 400;
     font-family: "Open Sans Condensed", sans-serif;
-    color: #2C3D6C;
+    color: #800020;
     text-align: center;
     padding: 0.5em;
   }
@@ -6878,13 +6878,13 @@ section.cores #core-swap ul li:hover {
     font-size: 2.4em;
     line-height: 1.2em;
     font-family: "Open Sans Condensed", sans-serif;
-    color: #2C3D6C;
+    color: #800020;
   }
   #lbrnEventHeader div.caption p,
 #lbrnHighlightHeader div.caption p {
     font-size: 1.2em;
     font-family: "Ubuntu", sans-serif;
-    color: #2C3D6C;
+    color: #800020;
     margin-top: 0.5em;
   }
 }
@@ -7068,7 +7068,7 @@ div.resources h2 {
   text-transform: none !important;
   clear: both;
   padding: 5%;
-  color: #2C3D6C;
+  color: #800020;
   font-weight: 400;
   font-family: "Ubuntu", sans-serif;
   line-height: 1.25em;
@@ -7100,7 +7100,7 @@ div.resources h2 {
   font-size: 0.8em;
   /* margin-top: unset !important; */
   padding: 0;
-  color: #2C3D6C;
+  color: #800020;
   font-family: "Ubuntu", sans-serif;
   line-height: 1.25em;
   -webkit-hyphens: auto;
@@ -7251,7 +7251,7 @@ div.resources h2 {
 .dot-indicators {
   width: 12px;
   height: 12px;
-  background-color: #8ECB91;
+  background-color: white;
   -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
