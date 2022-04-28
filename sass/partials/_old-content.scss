@@ -643,6 +643,7 @@ header {
   margin-right: 0;
   position: relative;
   filter: $filter;
+  filter: grayscale(100%);
 
   &.research {
     filter: $filter;
@@ -809,6 +810,7 @@ header h1 {
   /* color: red; */
   /* cust */
   color: $primary;
+  color: $color1-d3;
   /* padding-top: 1em; */
   padding-bottom: 2em;
   padding-left: 0;

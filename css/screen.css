@@ -5068,6 +5068,8 @@ header {
   position: relative;
   -webkit-filter: none;
           filter: none;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 header.research {
   -webkit-filter: none;
@@ -5180,6 +5182,7 @@ main div.content {
   /* color: red; */
   /* cust */
   color: #A01A30;
+  color: #2d2d2d;
   /* padding-top: 1em; */
   padding-bottom: 2em;
   padding-left: 0;
