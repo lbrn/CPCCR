@@ -75,6 +75,6 @@ exclude:
   # - Gemfile
   # - Gemfile.lock
 #Server settings
-port: 4000
+port: 4200
 encoding: utf-8
 include: ['.htaccess']
