@@ -4,6 +4,43 @@ title: CPCCR Home
 tag: home
 ---
 <div class="layout">
+  <aside class="events">
+    <div class="feed">
+
+      <h2>Events</h2>
+
+      {% assign eventsR = site.events %}
+      <!-- {% assign total = 0 %} -->
+
+      {% for event in site.events %}
+      {% capture eventdate %}{{event.date | date: '%s'}} {% endcapture %}
+      {% capture sitedate%} {{site.time | date: '%s' | minus:86400 | plus: 0 }}{% endcapture %}
+
+      {% assign sitedateconverted = site.time | date: '%s' | minus:86400 | plus: 0 %}
+      {% assign eventdateconverted = event.date | date: '%s' | plus: 0 %}
+
+      {% if eventdateconverted >= sitedateconverted %}
+      <!-- % if total < 2 % -->
+      <!-- % assign total = total | plus: 1 % -->
+      {% include events-list-item.html %}
+      <!-- % endif % -->
+      {% endif %}
+
+      {% endfor %}
+      <!-- Adding my own limit - do a count  -->
+
+
+      <a class="view-all" href="/events/">View events</a>
+    </div>
+    
+    <!--Start of EVENT ITEM-->
+    <div class="Twitterf">
+      <h2 STYLE="line-height: 1.2;">Twitter</h2>
+      <a class="twitter-timeline" href="https://twitter.com/lbrn_inbre?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by LBRN Inbre</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <div>
+        <!-- <a class="view-all" href="/events/">View all events</a> -->
+  </aside>
   <section class="news" id="newsContainer">
     <!-- <h2>News</h2> -->
 
