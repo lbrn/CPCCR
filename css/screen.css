@@ -657,7 +657,7 @@ main.research a.btn:hover {
 }
 .currentresearch.featured {
   padding: 0.5em 0.5em 0.75em;
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
@@ -813,7 +813,7 @@ main.research a.btn:hover {
   line-height: normal;
 }
 .fundingop a.btn {
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   color: #A01A30;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -871,7 +871,7 @@ main.research a.btn:hover {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   /* background-color: $resgreen; */
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   background-color: transparent;
   -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
@@ -908,7 +908,7 @@ main.research a.btn:hover {
   /* top left, top right, bottom right, bottom left */
 }
 .services .row:nth-of-type(even) .service:first-child {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
   background-color: transparent;
 }
 .services .row:nth-of-type(even) .service:first-child a.btn {
@@ -922,7 +922,7 @@ main.research a.btn:hover {
 .services .row:nth-of-type(even) .btn:hover {
   color: white;
   color: white;
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2x ease-in;
@@ -1063,7 +1063,7 @@ main.research a.btn:hover {
 .services .row .service:nth-of-type(even) .btn:hover {
   color: white;
   color: white;
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2x ease-in;
@@ -1506,7 +1506,7 @@ section.directory.projectinvestigators article.person {
 }
 
 .pubmed-link {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
   color: #A01A30;
   display: inline-block;
   font-weight: 400;
@@ -1914,7 +1914,7 @@ section.directory.projectinvestigators article.person {
 }
 .news article.featured, div.content .news article.featured {
   padding: 0.5em 0.5em 0.75em 0.5em;
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   -webkit-border-radius: 3%;
      -moz-border-radius: 3%;
           border-radius: 3%;
@@ -1923,7 +1923,7 @@ section.directory.projectinvestigators article.person {
   color: #A01A30;
 }
 .news article.linkarticle:hover, div.content .news article.linkarticle:hover {
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1937,7 +1937,7 @@ section.directory.projectinvestigators article.person {
   cursor: pointer;
 }
 .news article.linkarticle:hover.featured, div.content .news article.linkarticle:hover.featured {
-  background-color: rgba(160, 26, 48, 0.2);
+  background-color: rgba(141, 141, 141, 0.2);
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1947,7 +1947,7 @@ section.directory.projectinvestigators article.person {
   color: #A01A30;
 }
 .news article:hover, div.content .news article:hover {
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2082,7 +2082,7 @@ section.directory.projectinvestigators article.person {
   font-size: 1.5em;
 }
 .news.tne article:hover, div.content .news.tne article:hover {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
 }
 .news.tne article .post-link, div.content .news.tne article .post-link {
   margin-bottom: 0;
@@ -2182,7 +2182,7 @@ section.directory.projectinvestigators article.person {
      -moz-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: rgba(160, 26, 48, 0.2);
+  background-color: rgba(141, 141, 141, 0.2);
 }
 .events .feed section .details .title.space {
   font-size: 18px;
@@ -2194,7 +2194,7 @@ section.directory.projectinvestigators article.person {
   font-size: 22px;
 }
 .events .feed.highlights {
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
 }
 .events .feed.highlights section {
   display: -webkit-box;
@@ -2624,7 +2624,7 @@ section.directory.projectinvestigators article.person {
      -moz-border-radius: 7px;
           border-radius: 7px;
   /* background-color: $secondary; */
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -3003,7 +3003,7 @@ section.directory.projectinvestigators article.person {
   margin: 0;
 }
 #eventSchedule .row .day {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
   padding: 25px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3053,7 +3053,7 @@ section.directory.projectinvestigators article.person {
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
   padding: 10px;
-  background-color: rgba(160, 26, 48, 0.6);
+  background-color: rgba(141, 141, 141, 0.6);
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -3107,7 +3107,7 @@ section.directory.projectinvestigators article.person {
   border-top: 2px solid white;
 }
 #eventSchedule .row .day div:nth-child(3n) {
-  background-color: rgba(160, 26, 48, 0.2);
+  background-color: rgba(141, 141, 141, 0.2);
   color: #A01A30;
   margin-left: 5px;
   margin-right: 0;
@@ -3698,7 +3698,7 @@ section.directory.projectinvestigators article.person {
   color: white;
 }
 .navdropdown ul li ul li a:hover {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
   color: #A01A30;
   color: white;
   background-color: #A01A30;
@@ -4178,7 +4178,7 @@ section.directory.projectinvestigators article.person {
   color: #A01A30;
 }
 #lbrnEventSidebar .active {
-  background-color: rgba(160, 26, 48, 0.2) !important;
+  background-color: rgba(141, 141, 141, 0.2) !important;
   font-weight: 400 !important;
 }
 @media (max-width: 860px) {
@@ -4545,7 +4545,7 @@ a.btn.grn {
   color: #A01A30;
 }
 a.btn.grn:hover {
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
 }
 
 .header h1 {
@@ -5218,7 +5218,7 @@ main div.content h3:hover {
   cursor: pointer;
 }
 main div.content h3:enabled {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
 }
 main div.content h3.small-text {
   font-size: 0.9em;
@@ -5270,7 +5270,7 @@ main div.content #speakerfaq ul {
 }
 main div.content .important {
   font-style: italic;
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   padding: 0.5em;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
@@ -5400,7 +5400,7 @@ main div.content .content-sidebar {
   min-height: 0 !important;
   text-align: center;
   background-color: unset !important;
-  border-bottom: 10px solid rgba(160, 26, 48, 0.4);
+  border-bottom: 10px solid rgba(141, 141, 141, 0.4);
 }
 .presentation-templates section img {
   float: none !important;
@@ -5449,7 +5449,7 @@ main div.content .content-sidebar {
 
 .important {
   font-style: italic;
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   padding: 0.5em;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
@@ -5500,7 +5500,7 @@ img.fit {
 }
 
 .pagination a {
-  background-color: rgba(160, 26, 48, 0.6);
+  background-color: rgba(141, 141, 141, 0.6);
   color: #A01A30;
 }
 @media (max-width: 667px) {
@@ -5513,7 +5513,7 @@ img.fit {
   color: white;
 }
 .pagination span.next, .pagination span.previous {
-  background-color: rgba(160, 26, 48, 0.3);
+  background-color: rgba(141, 141, 141, 0.3);
   color: #A01A30;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
@@ -5625,7 +5625,7 @@ img.fit {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background-color: rgba(160, 26, 48, 0.2);
+  background-color: rgba(141, 141, 141, 0.2);
   /* text-align: left; */
   text-align: center;
   text-transform: capitalize;
@@ -5822,7 +5822,7 @@ img.fit {
 
 #lbrnEventHeader,
 #lbrnHighlightHeader {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -6211,7 +6211,7 @@ div.resources section:hover {
   -o-transition: background-color 0.1s;
   -moz-transition: background-color 0.1s;
   transition: background-color 0.1s;
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -6320,7 +6320,7 @@ section.cores ul {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background-color: rgba(160, 26, 48, 0.6);
+  background-color: rgba(141, 141, 141, 0.6);
 }
 section.cores ul li {
   width: 33.33332%;
@@ -6330,7 +6330,7 @@ section.cores ul li {
   padding: 1em 0;
 }
 section.cores ul li.active {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
 }
 section.cores ul li.active:hover {
   cursor: default;
@@ -6340,7 +6340,7 @@ section.cores ul li:hover {
   cursor: pointer;
 }
 section.cores #core-swap {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -6378,7 +6378,7 @@ section.cores #core-swap img {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
 }
 section.cores #core-swap div.desc {
   display: -webkit-box;
@@ -7091,7 +7091,7 @@ div.resources h2 {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background-color: rgba(160, 26, 48, 0.2);
+  background-color: rgba(141, 141, 141, 0.2);
   text-align: center;
   text-transform: capitalize;
   padding-top: 0.5em;
@@ -7165,7 +7165,7 @@ div.resources h2 {
 }
 
 .person:hover {
-  background-color: rgba(160, 26, 48, 0.4);
+  background-color: rgba(141, 141, 141, 0.4);
   /* background-color: $quadiary; */
 }
 
