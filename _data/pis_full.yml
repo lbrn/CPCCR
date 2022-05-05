@@ -26,10 +26,10 @@
   name: Sita Withers
   active: true
   origin: LSU, School of Veterinary Medicine
-  image: swithers.jpg
-  ftimage: swithers.jpg
+  image: withers_sita.jpg
+  ftimage: withers_sita.jpg
   degree: DVM, PhD
-  link: http://facultypages.vetmed.lsu.edu/faculty/withers1
+  link: https://www.lsu.edu/vetmed/faculty/withers.php
   project_title: Strategic inhibition of EGFR-family signaling using novel peptidomimetic inhibitors of HER2 for the treatment of osteosarcoma.
   pcec_use: HER2 drug inhibitor assays will be performed against 3D OSA spheroids using the Cytation5 instrument and 3D OSA spheroids bioprinting will be performed. A kinase inhibitor library will be screened to identify new inhibitors of the OSA spheroids either alone and in combination with the HER inhibitors. In vivo OSA models will be used to test efficacy of inhibitors against OSA and will be analyzed (toxicity, PK).
   mbipc_use: RNA-seq will be performed on compound 18/Hyp-18 treated OSA cell lines to explore for compensatory pathway upregulation. Single-cell RNA sequencing will be conducted to uncover microenvironment-mediated resistance mechanisms in OSA spheroids and tumors from mouse OSA models.
@@ -51,9 +51,9 @@
   name: Andrea Johnston
   active: true
   origin: LSU, School of Veterinary Medicine
-  image: ajohnston.jpg
+  image: johnston_andrea.jpg
   degree: DVM, PhD
-  link: http://facultypages.vetmed.lsu.edu/faculty/johnston1
+  link: https://www.lsu.edu/vetmed/faculty/johnston.php
   project_title: Phosphoglycerate mutase 5 (PGAM5) in the regulation of hepatic lipid metabolism and carcinogenesis.
   pcec_use: Development of steatosis will be measured in a 2D monoculture model of NAFLD  using wild-type (WT) and Pgam5-/- primary murine hepatocytes, human hepatocellular carcinoma cells (HepG2), and rat hepatic hybrid cells (WIF-B). To model the complex mitochondrial metabolic phenotype of NAFLD associated HCC, 3D single and mixed cell spheroid models will be bioprinted using WT and Pgam5-/- HepG2 cells with and without immortalized WT human hepatic stellate cells (LX-2). High content imaging and proliferation assays using the Cytation5 instrument will monitor spheroid development.
   mbipc_use: Single cell sequencing of steatotic and non-steatotic, WT and PGAM5-/- HepG2 cells will be performed to evaluate targeted changes in lipid metabolism and unbiased transcriptome profiling. Spheroid mitochondrial respiration and glycolytic flux will be measured using the Seahorse XFe96 analyzer. Spheroid cellular ROS will be measured using fixed and live cell imaging of molecular oxidant sensing probes.
