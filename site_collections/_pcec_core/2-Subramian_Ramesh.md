@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Associate Director
+title: Co-Investigator and Associate Director
 author: Ramesh Subramanian
 school: Louisiana State University, School of Veterinary Medicine
 project-type: TestElement
-image: "Admin_Ramesh_Subramanian.jpg"
+image: "subramanian_ramesh.jpg"
 categories: project-investigator
 email: ramji@lsu.edu
-phone: (225) 578-9619
+phone: 
 zip: 70803
 city: Baton Rouge
 state: Louisiana
+link: https://www.lsu.edu/vetmed/faculty/subramanian.php
 ---

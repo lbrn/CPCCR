@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Principal Investigator/Program Director
-author: K Gus Kousoulas
+title: Statistician
+author: Xue Wen
 school: Louisiana State University, School of Veterinary Medicine
 project-type: TestElement
-image: "Kousoulas_Konstantin_LSU9425sm.jpg"
+image: "wen-xue.jpg"
 categories: project-investigator
-email: vtgusk@lsu.edu
-phone: (225) 578-5833
+email: xwen12@lsu.edu
+phone: 
 zip: 70803
 city: Baton Rouge
 state: Louisiana
+link: https://www.lsu.edu/vetmed/faculty/wen.php
 ---

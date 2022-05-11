@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Grant Administrator
-author: Alexis White
+title: Principal Investigator
+author: Joseph Francis
 school: Louisiana State University, School of Veterinary Medicine
 project-type: TestElement
-image: "White_Alexis.jpg"
+image: "francis_joseph.jpg"
 categories: project-investigator
-email: alexisw@lsu.edu
-phone: (225) 578-9683
+email: jfrancis@lsu.edu
+phone: 
 zip: 70803
 city: Baton Rouge
 state: Louisiana
+link: https://www.lsu.edu/vetmed/faculty/francis.php
 ---

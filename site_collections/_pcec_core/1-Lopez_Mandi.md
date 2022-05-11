@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Grants Coordinator and Developer
-author: Gabrielle Broussard
+title: PCEC Core Director
+author: Mandi Lopez
 school: Louisiana State University, School of Veterinary Medicine
 project-type: TestElement
-image: "Broussard_Gabrielle.jpg?v1.1"
+image: "lopez_mandi.jpg"
 categories: project-investigator
-email: gbroussard1@lsu.edu
-phone: (225) 578-9683
+email: mlopez@lsu.edu
+phone: 
 zip: 70803
 city: Baton Rouge
 state: Louisiana
+link: https://www.lsu.edu/vetmed/faculty/lopez.php
 ---

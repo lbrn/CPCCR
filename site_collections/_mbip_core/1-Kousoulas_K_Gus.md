@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Associate Director
-author: Vladimir Chouljenko
+title: Core Director
+author: K Gus Kousoulas
 school: Louisiana State University, School of Veterinary Medicine
 project-type: TestElement
-image: "chouljenko.jpg"
+image: "vtgusk@lsu.edu"
 categories: project-investigator
-email: vchoul1@lsu.edu
-phone: (225) 578-9659
+email: vtgusk@lsu.edu
+phone: 
 zip: 70803
 city: Baton Rouge
 state: Louisiana
+link: https://lsu.edu/vetmed/faculty/kousoulas.php
 ---
