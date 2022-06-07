@@ -108,14 +108,25 @@
                       <img src="/images/people/PIs/{{ pi.image }}?v1.2" alt="{{pi.person}}" class="img-polaroid">
                     </div>
                     {% endif %}
+                    <div class="profile-txt">
+                  {% if pi.biosketch != nil %}
+                  <br>
+                  <h2 class="profile">Biosketch</h2>
+                  {% endif %}
+ 	               </div>
+                 <div class="abstractp">
+                  <p class="long-text">
+                    {{ pi.biosketch | newline_to_br }}
+                  </p>
+                 
+                 </div>
                   <div class="profile-txt">
                   {% if pi.abstract != nil %}
                   <br>
                   <h2 class="profile">Abstract</h2>
                   {% endif %}
-
-
-                </div>
+ 	               </div>
+ 	               
                 </div>
                 <br>
                 <div class="abstractp">
@@ -126,6 +137,7 @@
                     {{ pi.descrip | newline_to_br }}
                   </p>
                 </div>
+                
               </div>
             </div>
           {% endif %}
