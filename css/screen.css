@@ -15,6 +15,40 @@
   font-size: 19.2px;
   line-height: 35px;
 }
+.about section.directory {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.about section.directory .person {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 33%;
+     -moz-box-flex: 1;
+      -ms-flex: 1 1 33%;
+          flex: 1 1 33%;
+  width: auto;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.about section.directory h4, .about section.directory h5, .about section.directory h6, .about section.directory ul {
+  width: 100%;
+}
+.about h3 {
+  color: #A01A30;
+}
 
 #core-list {
   text-align: center;

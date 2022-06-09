@@ -28,7 +28,35 @@ tag: about
     </p>
       <h2 id="pidir">PI and Center Director</h2>
       <p> Dr. Francis is Associate Dean for Research and Advanced Studies at the LSU SVM and Professor in the Dept. of CBS at the LSU SVM. Dr. Francis oversees and facilitates the Research Mission and Graduate Degree Program of the SVM. Dr. Francis is a Professor of Veterinary Medicine in the Dept. of CBS at the LSU SVM and is an expert in cardiovascular and neurological disease models, including chronic diseases such as heart failure, hypertension, metabolic syndrome, and Post-Traumatic Stress Disorder. His research interests are in the area of inflammation pertaining to human diseases. Dr. Francis’ research has recently focused on human cancers such as breast cancer and therapeutic treatments. He has developed a natural product that modulates PD-1 expression in cancer cells and TGFβ signaling in breast cancer and melanoma cell lines. After joining LSU in 2003, he rose to the rank of full Professor in 2012 and served as Interim Department Head in 2012-13.  He has received over $7M in research grants from the NIH, AHA, USDA, DOD, and US High Bush Blueberry Council. He has published over 101 peer- reviewed manuscripts in high impact journals using animal models for better understanding of chronic diseases such as heart failure and hypertension.  He has extensive experience in mentoring students and junior faculty, including both at LSU and Southern University.  </p>
-      <img src="images\cpccr\Annotation 2020-04-12 144751.png" alt="About page Graphic">
+      <!-- <img src="images\cpccr\Annotation 2020-04-12 144751.png" alt="About page Graphic"> -->
+      <h2>Staff Directory</h2>
+      <h3>Admin Core</h3>
+      <section class="directory projectinvestigators">
+        {% for people in site.data.CPCCR-adminCore %}
+        {% include directory-about.html %}
+        {% endfor %}
+      </section>
+      <h3>EAC</h3>
+      <section class="directory projectinvestigators">
+
+        {% for people in site.data.CPCCR-EAC %}
+        {% include directory-about.html %}
+        {% endfor %}
+      </section>
+
+      <h3>MBIP Core</h3>
+      <section class="directory projectinvestigators">
+        {% for people in site.data.CPCCR-MBIP-Core %}
+        {% include directory-about.html %}
+        {% endfor %}
+      </section>
+
+      <h3>PCEC Core</h3>
+      <section class="directory projectinvestigators">
+        {% for people in site.data.CPCCR-PCEC-Core %}
+        {% include directory-about.html %}
+        {% endfor %}
+      </section>
       <h2 id="asdir">Associate Director and Co-I</h2>
 
       <p>Dr. Kousoulas is former LSU Associate Vice President for Research and Economic Development and Professor in the Dept. of PBS at LSU SVM. He is internationally renowned for his work studying the molecular pathogenesis of HSV infection, oncolytic virotherapy, and vaccine development. Dr. Kousoulas is currently developing oncolytic virotherapies for breast cancer and melanoma and has established these cancer mouse models in his laboratory. He is Director of the LSU SVM Division of Biotechnology and Molecular Medicine (BIOMMED) and founding PI of the highly successful COBRE Center for Experimental Infectious Research (CEIDR), which is ending Phase III funding in April 2020 (NCE). He is currently the PI for the LBRN/INBRE, where he supports and mentors faculty and undergraduates at institutions across Louisiana. He has graduated 20 PhDs in the last 20 years and trained over 10 postdoctoral fellows and has published more than 120 research articles. He has successfully mentored faculty supported by the CEIDR COBRE, which have been successful in obtaining 16 R01s.  He currently serves on the EACs of 3 funded COBRE centers. He will serve as Co-I and Associate Director and as a PJI mentor and member of the MC.  His experience will be invaluable to the Cancer COBRE.</p>
