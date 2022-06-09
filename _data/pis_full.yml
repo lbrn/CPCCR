@@ -30,13 +30,25 @@
   ftimage: withers_sita.jpg
   degree: DVM, Ph.D.
   link: https://www.lsu.edu/vetmed/faculty/withers.php
-  project_title: Strategic inhibition of EGFR-family signaling using novel peptidomimetic inhibitors of HER2 for the treatment of osteosarcoma.
+  mentors:
+    -
+      name: Konstantin G. Kousoulas, Ph.D.
+      origin: Louisiana State University, Department of Pathobiological Science
+  
+  funding:
+    -
+      name: Project
+      period: May 1, 2021 - February 28, 2024
+     
+  project_title: Strategic inhibition of EGFR-family signaling using novel peptidomimetic inhibitors of HER-2 for the treatment of osteosarcoma.
   pcec_use: |
     HER2 drug inhibitor assays will be performed against 3D OSA spheroids using the Cytation5 instrument and 3D OSA spheroids bioprinting will be performed. A kinase inhibitor library will be screened to identify new inhibitors of the OSA spheroids either alone and in combination with the HER inhibitors. In vivo OSA models will be used to test efficacy of inhibitors against OSA and will be analyzed (toxicity, PK).
   mbipc_use: |
     RNA-seq will be performed on compound 18/Hyp-18 treated OSA cell lines to explore for compensatory pathway upregulation. Single-cell RNA sequencing will be conducted to uncover microenvironment-mediated resistance mechanisms in OSA spheroids and tumors from mouse OSA models.
+  biosketch: |
+    As a clinician-scientist in the field of veterinary medical oncology I have chosen to focus my research on therapeutic targets in human and canine osteosarcoma. My current position as an Assistant Professor of Medical Oncology in the School of Veterinary Medicine at Louisiana State University enables me to pursue my long-term goals of translating bench-top findings into clinical advancements for patients with osteosarcoma. Much of my PhD work suggested a key role for innate inflammation in the modulation of osteosarcoma behavior in canine patients. Therefore, my current focus is on understanding how sarcoma cells interact with innate immune cells in the tumor microenvironment, and how these interactions effect patient outcome and may be exploited for therapeutic benefit.
   abstract: |
-    Dr. Wither’s research proposal aims to develop novel therapeutic strategies that overcome current therapeutic limitations in order to fulfill the potential of EGFR-targeting strategies to improve outcome in osteosarcoma (OSA. Her central hypothesis is that strategic inhibition of EGFR-family signaling will provide an additional tool for treating metastatic OSA. In order to develop rational therapeutic strategies for optimally inhibiting EGFR-family mediated OSA progression, Dr. Withers proposes utilizing novel peptidomimetic HER2 heterodimerization inhibitors of EGFR:HER2 and HER2:HER3, a TKI library, in vitro high-throughput screening, RNA-seq, and 3D bioprinting, to identify promising agents and combinations. Selected candidates will be tested in vivo in both experimental and naturally-occurring canine models of OSA.
+    This proposal will identify novel treatment strategies for osteosarcoma, which has a 5-year survival rate of 70%. The expression of tyrosine kinase receptors (e.g. epidermal growth factor receptors and others) in human and canine osteosarcomas and has correlated with a poor outcome in some human studies. Using high-throughput, comparative in vitro models, 3D bioprinting, and murine and canine models of osteosarcoma, Dr. Withers will evaluate a range of tyrosine kinase inhibitors. Strategic combination treatments will be investigated by utilizing high-throughput sequencing and molecular biomarkers of response. The hypothesis of this proposal is that optimal combinations of tyrosine kinase inhibitors for treatment of osteosarcoma will be identified by utilizing high-throughput screening techniques and in depth analysis of gene expression. Dr. Withers’ approach includes evaluation in a naturally-occurring canine osteosarcoma model, which models human osteosarcoma more closely than murine models.
 -
   name: Elizabeth Martin
   active: true
