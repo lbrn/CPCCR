@@ -15,7 +15,7 @@
   font-size: 19.2px;
   line-height: 35px;
 }
-.about section.directory {
+.about section.directory.projectinvestigators {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -31,8 +31,20 @@
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 1px solid #A01A30;
+  padding: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  background-color: rgba(217, 244, 243, 0.7);
 }
-.about section.directory .person {
+.about section.directory.projectinvestigators .person {
+  background-color: white;
+  margin-right: 10px;
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 33%;
      -moz-box-flex: 1;
@@ -42,8 +54,56 @@
   padding: 10px;
   margin-top: 0;
   margin-bottom: 10px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  border: 3px solid transparent;
 }
-.about section.directory h4, .about section.directory h5, .about section.directory h6, .about section.directory ul {
+.about section.directory.projectinvestigators .person a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.about section.directory.projectinvestigators .person a > div {
+  padding-left: 10px;
+}
+.about section.directory.projectinvestigators .person h4 {
+  margin-top: 0;
+}
+.about section.directory.projectinvestigators .person img {
+  width: 84px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  margin-top: auto;
+}
+.about section.directory.projectinvestigators .person:hover {
+  border: 3px solid rgba(80, 180, 214, 0.7);
+}
+@media (max-width: 667px) {
+  .about section.directory.projectinvestigators .person {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+       -moz-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    margin-left: 0;
+  }
+}
+.about section.directory.projectinvestigators h4, .about section.directory.projectinvestigators h5, .about section.directory.projectinvestigators h6, .about section.directory.projectinvestigators ul {
   width: 100%;
 }
 .about h3 {
@@ -642,7 +702,7 @@ main.research div.content h2 {
 main.research a.btn {
   width: 200px;
   text-align: center;
-  background-color: rgba(255, 213, 49, 0.5);
+  background-color: rgba(80, 180, 214, 0.5);
   margin: 20px 0;
   -webkit-align-self: auto;
       -ms-flex-item-align: auto;
@@ -934,7 +994,7 @@ main.research a.btn:hover {
   background-color: transparent;
 }
 .services .row:nth-of-type(even) {
-  background-color: rgba(255, 213, 49, 0.5);
+  background-color: rgba(80, 180, 214, 0.5);
   background-color: transparent;
   -webkit-border-radius: 5px 10px 15px 20px;
      -moz-border-radius: 5px 10px 15px 20px;
@@ -946,7 +1006,7 @@ main.research a.btn:hover {
   background-color: transparent;
 }
 .services .row:nth-of-type(even) .service:first-child a.btn {
-  background-color: rgba(255, 213, 49, 0.5);
+  background-color: rgba(80, 180, 214, 0.5);
   /* float:left; */
 }
 .services .row:nth-of-type(even) .btn {
@@ -1049,7 +1109,7 @@ main.research a.btn:hover {
   background-color: transparent;
 }
 .services .row .service:nth-child(2) {
-  background-color: rgba(255, 213, 49, 0.5);
+  background-color: rgba(80, 180, 214, 0.5);
   background-color: transparent;
 }
 .services .row .service:only-child img:first-child {
@@ -1087,7 +1147,7 @@ main.research a.btn:hover {
   color: white;
 }
 .services .row .service:nth-of-type(even) {
-  background-color: rgba(255, 213, 49, 0.5);
+  background-color: rgba(80, 180, 214, 0.5);
   background-color: transparent;
 }
 .services .row .service:nth-of-type(even) .btn {
@@ -1245,7 +1305,7 @@ main.research a.btn:hover {
   }
 }
 .services a.btn {
-  background-color: rgba(255, 213, 49, 0.5);
+  background-color: rgba(80, 180, 214, 0.5);
   margin-left: auto;
   margin-right: auto;
   -webkit-box-flex: 0;
@@ -3777,8 +3837,8 @@ section.directory.projectinvestigators article.person {
   color: white;
 }
 .navdropdown li a.button, .navdropdown li p.button {
-  border: 2px solid #FFD531;
-  background-color: #FFD531;
+  border: 2px solid #50B4D6;
+  background-color: #50B4D6;
   color: #646363;
   -webkit-border-radius: 25px;
      -moz-border-radius: 25px;
@@ -4583,7 +4643,7 @@ a.btn.grn:hover {
 }
 
 .header h1 {
-  background-color: rgba(255, 213, 49, 0.5);
+  background-color: rgba(80, 180, 214, 0.5);
   color: #A01A30;
   line-height: 2.2;
   padding-bottom: 5px;
