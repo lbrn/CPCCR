@@ -5,8 +5,10 @@
   <img src="images/people/{{people.image}}" alt="{{people.author}}'s portrait photo.">
   <div class="">
     <h4>{{people.name}}</h4>
-
-    <h6 style="margin-top: .7em;">{{people.school}}</h6>
+    {% if people.position != nil %}
+    <h5>{{people.position}}</h5>
+    {% endif %}
+    <h6>{{people.school}}</h6>
   </div>
   </a>
 </article>

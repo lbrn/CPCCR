@@ -40,7 +40,7 @@
   padding: 10px;
   padding-right: 0;
   padding-bottom: 0;
-  background-color: rgba(217, 244, 243, 0.7);
+  background-color: rgba(141, 141, 141, 0.2) !important;
 }
 .about section.directory.projectinvestigators .person {
   background-color: white;
@@ -79,6 +79,7 @@
 }
 .about section.directory.projectinvestigators .person h4 {
   margin-top: 0;
+  margin-bottom: 1px;
 }
 .about section.directory.projectinvestigators .person img {
   width: 84px;
@@ -88,7 +89,7 @@
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
-  margin-top: auto;
+  margin-bottom: auto;
 }
 .about section.directory.projectinvestigators .person:hover {
   border: 3px solid rgba(80, 180, 214, 0.7);
@@ -5160,10 +5161,6 @@ header {
   margin-left: 0;
   margin-right: 0;
   position: relative;
-  -webkit-filter: none;
-          filter: none;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
 }
 header.research {
   -webkit-filter: none;
@@ -6802,7 +6799,7 @@ section.cores #core-swap ul li:hover {
   }
 
   header img {
-    height: 8em;
+    height: 9em;
   }
 
   header h1 {

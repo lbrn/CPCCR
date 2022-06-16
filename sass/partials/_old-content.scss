@@ -642,8 +642,6 @@ header {
   margin-left: 0;
   margin-right: 0;
   position: relative;
-  filter: $filter;
-  filter: grayscale(100%);
 
   &.research {
     filter: $filter;
@@ -2187,7 +2185,7 @@ section.cores {
   }
 
   header img {
-    height: 8em;
+    height: 9em;
   }
 
   header h1 {
