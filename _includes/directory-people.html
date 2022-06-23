@@ -1,0 +1,24 @@
+<article class="person">
+  <a class="natural-link" target="_blank" href="{{people.link}}">
+
+
+  <img src="images/people/PIs/{{people.image}}" alt="{{people.name}}'s portrait photo.">
+  <div class="">
+    <h4>{{people.name}}</h4>
+    {% if people.project_title != nil %}
+    <h5>{{people.project_title}}</h5>
+    {% endif %}
+    <h6>{{people.origin}}</h6>
+  </div>
+  </a>
+</article>
+<!--
+
+<article class="person">
+  <img src="images/people/{{people.image}}" alt="{{people.name}}">
+
+  <h4>{{people.author}}</h4>
+
+  <h5>{{people.project}}</h5>
+  <h6 style="margin-top: .7em;">{{people.school}}</h6>
+</article> -->

@@ -28,29 +28,21 @@ tag: peoplepage
       <div class="sidebar-holder">
         <div class="dot-text-holder">
           <li>
-            <a href="#lbrnBbcCore">BBC Core</a>
+            <a href="#lbrnBbcCore">PCEC Core</a>
           </li>
         </div>
       </div>
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li><a href="#lbrnMcbrCore">MCBR Core</a>
+          <li><a href="#lbrnMcbrCore">MBIP Core</a>
           </li>
         </div>
       </div>
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li><a href="#currentlyFunded">Currently Funded PIs</a>
-          </li>
-        </div>
-
-      </div>
-
-      <div class="sidebar-holder">
-        <div class="dot-text-holder">
-          <li><a href="#previouslyFunded">Previously Funded PIs</a>
+          <li><a href="#currentlyFunded">Project Investigators</a>
           </li>
         </div>
 
@@ -58,14 +50,16 @@ tag: peoplepage
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li><a href="#LbrnSteering">LBRN Steering Committee</a>
+          <li><a href="#previouslyFunded">Pilot Investigators</a>
           </li>
         </div>
+
       </div>
+
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li><a href="#LbrnEAC">LBRN EAC</a>
+          <li><a href="#LbrnEAC">EAC</a>
           </li>
         </div>
       </div>
@@ -95,35 +89,34 @@ tag: peoplepage
       <section class="directory collapsenobs Adcore peoplewrap">
 
 
-        {% for people in site.admin_core %}
-        {% include directory-core.html %}
+        {% for people in site.data.CPCCR-adminCore %}
+        {% include directory-about.html %}
         {% endfor %}
 
       </section>
     </div>
     <div class="relative">
       <h3 id="lbrnBbcCore" class="pibc ptitle">
-        BBC Core
+        PCEC Core
         <div class="caret dropdown-toggle">
       </h3>
       <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin" aria-hidden="true"></i> -->
       <section class="directory collapsenobs BBcore peoplewrap">
         <!-- site.data.LBRN-BBC-Core -->
-        {% for people in site.bbc_core %}
-        {% include directory-core.html %}
+        {% for people in site.data.CPCCR-PCEC-Core %}
+        {% include directory-about.html %}
         {% endfor %}
       </section>
     </div>
     <div class="relative">
       <h3 id="lbrnMcbrCore" class="pimc ptitle">
-        MCBR Core
+        MBIP Core
         <div class="caret dropdown-toggle"></div>
       </h3>
       <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin" aria-hidden="true"></i> -->
       <section class="directory collapsenobs MCcore peoplewrap">
-        {% for people in site.MCBR_core %}
-        {% include directory-core.html %}
-
+        {% for people in site.data.CPCCR-MBIP-Core %}
+        {% include directory-about.html %}
         {% endfor %}
       </section>
     </div>
@@ -136,7 +129,7 @@ tag: peoplepage
       <section class="directory collapsenobs CRP peoplewrap">
         {% for people in site.data.pis_full %}
         {% if people.active == true %}
-        {% include directory-core.html %}
+        {% include directory-pi.html %}
 
         {% endif %}
         {% endfor %}
@@ -145,7 +138,7 @@ tag: peoplepage
       </section>
 
     </div>
-    <div class="relative">
+    <div class="relative" style="display: none;">
       <h3 id="previouslyFunded" class="pippi ptitle">Previously Funded PIs
         <div class="caret dropdown-toggle"></div>
       </h3>
@@ -162,58 +155,23 @@ tag: peoplepage
     </div>
 
 
-    <div class="relative Parti" style="display: none;">
-      <h2 id="partnerInstitutes dropdown-toggle">Partner Institutes</h2>
-      <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin2" aria-hidden="true"></i> -->
-      <section class="directory collapsenobs peoplewrap">
-        {% for people in site.partner_Institutes %}
-        {% include directory-core.html %}
 
-        {% endfor %}
 
-      </section>
-    </div>
-    <div class="relative">
-      <h3 id="LbrnSteering" class="pilsc ptitle">LBRN Steering Committee
-        <div class="caret dropdown-toggle"></div>
-      </h3>
-      <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin" aria-hidden="true"></i> -->
-      <section class="directory collapsenobs LBRNsc peoplewrap">
-        <!-- site.data.LBRN-Steering-Committee -->
-        {% for people in site.LBRN_Steering_Committee %}
-        {% include directory-core.html %}
-
-        {% endfor %}
-
-      </section>
-    </div>
     <h2 class="cmelement">Committee Members</h2>
     <div class="relative">
-      <h3 id="LbrnEAC" class="pile ptitle">LBRN External Advisory Committee
+      <h3 id="LbrnEAC" class="pile ptitle">External Advisory Committee
         <div class="caret dropdown-toggle">
       </h3>
       <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin" aria-hidden="true"></i> -->
       <section class="directory collapsenobs LBRNe peoplewrap">
         <!-- site.data.LBRN-EAC -->
 
-        {% for people in site.committee-members %}
+        {% for people in site.data.CPCCR-EAC %}
           {% if people.category != "Former EAC Members"%}
           {% include directory-core.html %}
 
           {% endif %}
         {% endfor %}
-
-        <h3>Former EAC Members</h3>
-        <div class="peoplewrap">
-
-          {% for people in site.committee-members %}
-            {% if people.category == "Former EAC Members"%}
-            {% include directory-core.html %}
-
-            {% endif %}
-          {% endfor %}
-        </div>
-
       </section>
 
     </div>

@@ -54,25 +54,30 @@ tag: pis
 
 <div class="content-sidebar content ">
 
-
+<h3>Project Investigators</h3>
 <section class="directory projectinvestigators" >
-  {% assign count = 0 %}
-
   {% for people in site.data.pis_full %}
-        {% if people.active %}
-        {% assign count = count | plus: 1 %}
-          {% assign modcount = count | modulo: 2 %}
+    {% if people.funding[0].name contains "Project" %}
 
-            {% if modcount == 1  %}
-                {% include directory-pi.html %}
-              {% else %}
-                {% include directory-pi.html %}
-            {% endif %}
-            {%endif%}
+      {% include directory-pi.html %}
+
+    {%endif%}
   {% endfor %}
 
 
 </section>
+<h3>Pilot Investigators</h3>
+<section class="directory projectinvestigators" >
 
+  {% for people in site.data.pis_full %}
+    {% if people.funding[0].name contains "Pilot" %}
+
+      {% include directory-pi.html %}
+
+    {%endif%}
+  {% endfor %}
+
+
+</section>
 </div>
 <section class="directory">
