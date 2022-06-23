@@ -21,28 +21,28 @@ tag: peoplepage
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li class="active"><a href="#lbrnAdminCore">Admin Core</a></li>
+          <li class="active"><a href="#admincore">Admin Core</a></li>
         </div>
       </div>
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
           <li>
-            <a href="#lbrnBbcCore">PCEC Core</a>
+            <a href="#pceccore">PCEC Core</a>
           </li>
         </div>
       </div>
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li><a href="#lbrnMcbrCore">MBIP Core</a>
+          <li><a href="#mbipcore">MBIP Core</a>
           </li>
         </div>
       </div>
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li><a href="#currentlyFunded">Project Investigators</a>
+          <li><a href="#projectinvest">Project Investigators</a>
           </li>
         </div>
 
@@ -50,7 +50,7 @@ tag: peoplepage
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li><a href="#previouslyFunded">Pilot Investigators</a>
+          <li><a href="#pilotinvest">Pilot Investigators</a>
           </li>
         </div>
 
@@ -59,7 +59,7 @@ tag: peoplepage
 
       <div class="sidebar-holder">
         <div class="dot-text-holder">
-          <li><a href="#LbrnEAC">EAC</a>
+          <li><a href="#eac">EAC</a>
           </li>
         </div>
       </div>
@@ -81,7 +81,7 @@ tag: peoplepage
 
   <div class="people" id="matchHeight">
     <div class="relative">
-      <h3 id="lbrnAdminCore" class="piac ptitle" aria-expanded="true">
+      <h3 id="admincore" class="piac ptitle" aria-expanded="true">
         Admin Core
         <div class="caret dropdown-toggle"></div>
       </h3>
@@ -96,7 +96,7 @@ tag: peoplepage
       </section>
     </div>
     <div class="relative">
-      <h3 id="lbrnBbcCore" class="pibc ptitle">
+      <h3 id="pceccore" class="pibc ptitle">
         PCEC Core
         <div class="caret dropdown-toggle">
       </h3>
@@ -109,7 +109,7 @@ tag: peoplepage
       </section>
     </div>
     <div class="relative">
-      <h3 id="lbrnMcbrCore" class="pimc ptitle">
+      <h3 id="mbipcore" class="pimc ptitle">
         MBIP Core
         <div class="caret dropdown-toggle"></div>
       </h3>
@@ -122,16 +122,32 @@ tag: peoplepage
     </div>
     <h2 class="pielement" id="peoplePI">Project Investigators</h2>
     <div class="relative">
-      <h3 id="currentlyFunded" class="picrp ptitle">Currently Funded PIs
+      <h3 id="projectinvest" class="picrp ptitle">Project Investigators
         <div class="caret dropdown-toggle"></div>
       </h3>
       <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin" aria-hidden="true"></i> -->
       <section class="directory collapsenobs CRP peoplewrap">
         {% for people in site.data.pis_full %}
-        {% if people.active == true %}
-        {% include directory-pi.html %}
+          {% if people.funding[0].name contains "Project" %}
 
-        {% endif %}
+            {% include directory-pi.html %}
+
+          {%endif%}
+        {% endfor %}
+
+
+      </section>
+      <h3 id="pilotinvest" class="picrp ptitle">Pilot Investigators
+        <div class="caret dropdown-toggle"></div>
+      </h3>
+      <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin" aria-hidden="true"></i> -->
+      <section class="directory collapsenobs CRP peoplewrap">
+        {% for people in site.data.pis_full %}
+          {% if people.funding[0].name contains "Pilot" %}
+
+            {% include directory-pi.html %}
+
+          {%endif%}
         {% endfor %}
 
 
@@ -159,7 +175,7 @@ tag: peoplepage
 
     <h2 class="cmelement">Committee Members</h2>
     <div class="relative">
-      <h3 id="LbrnEAC" class="pile ptitle">External Advisory Committee
+      <h3 id="eac" class="pile ptitle">External Advisory Committee
         <div class="caret dropdown-toggle">
       </h3>
       <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin" aria-hidden="true"></i> -->
