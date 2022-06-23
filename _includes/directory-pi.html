@@ -1,16 +1,24 @@
-<!-- <article class="person">
-  <h6>project: {{people.project}}</h6>
-  <h6>author: {{people.name}}</h6>
-  <h6>school: "{{people.school}}"</h6>
-  <h6>project-type: TestElement</h6>
-  <h6>image: "{{people.image}}"</h6>
-</article> -->
+<article class="person">
+  <a class="natural-link" target="_blank" href="{{people.link}}">
+
+
+  <img src="images/people/PIs/{{people.image}}" alt="{{people.name}}'s portrait photo.">
+  <div class="">
+    <h4>{{people.name}}</h4>
+    {% if people.project_title != nil %}
+    <h5>{{people.project_title}}</h5>
+    {% endif %}
+    <h6>{{people.origin}}</h6>
+  </div>
+  </a>
+</article>
+<!--
 
 <article class="person">
   <img src="images/people/{{people.image}}" alt="{{people.name}}">
 
   <h4>{{people.author}}</h4>
-  <!-- <a class="natural-link" href="{{people.url | relative_url }}">    <h5>{{people.project}}</h5></a> -->
+
   <h5>{{people.project}}</h5>
   <h6 style="margin-top: .7em;">{{people.school}}</h6>
-</article>
+</article> -->

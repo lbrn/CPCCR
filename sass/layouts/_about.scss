@@ -1,3 +1,63 @@
+%sec-dir-pis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // margin-top: -10px;
+
+  border-radius: 6px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 1px solid $color2;
+  padding: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  // background-color: rgba($color3-l1, 0.7);
+  background-color: $quadiary!important;
+  .person {
+    background-color: white;
+    margin-right: 10px;
+    flex: 1 1 33%;
+    width: auto;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    transition: $t;
+    border: 3px solid transparent;
+    a {
+      display: flex;
+      flex-direction: row;
+      > div {
+        padding-left: 10px;
+      }
+    }
+    h4 {
+      margin-top: 0;
+      margin-bottom: 1px;
+    }
+    img {
+      width: 84px;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      border-radius: 6px;
+      // margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    &:hover {
+      border: 3px solid rgba($color3, 0.7);
+
+    }
+    @media (max-width: $md) {
+      flex: 1 1 100%;
+      margin-left: 0;
+    }
+  }
+  h4, h5, h6, ul {
+    width: 100%;
+  }
+}
+
 .about {
   .content {
     .content {
@@ -16,63 +76,7 @@
   }
 
   section.directory.projectinvestigators {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    // margin-top: -10px;
-
-    border-radius: 6px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    border: 1px solid $color2;
-    padding: 10px;
-    padding-right: 0;
-    padding-bottom: 0;
-    // background-color: rgba($color3-l1, 0.7);
-    background-color: $quadiary!important;
-    .person {
-      background-color: white;
-      margin-right: 10px;
-      flex: 1 1 33%;
-      width: auto;
-      padding: 10px;
-      margin-top: 0;
-      margin-bottom: 10px;
-      transition: $t;
-      border: 3px solid transparent;
-      a {
-        display: flex;
-        flex-direction: row;
-        > div {
-          padding-left: 10px;
-        }
-      }
-      h4 {
-        margin-top: 0;
-        margin-bottom: 1px;
-      }
-      img {
-        width: 84px;
-        height: auto;
-        padding: 0;
-        margin: 0;
-        border-radius: 6px;
-        // margin-top: auto;
-        margin-bottom: auto;
-      }
-
-      &:hover {
-        border: 3px solid rgba($color3, 0.7);
-
-      }
-      @media (max-width: $md) {
-        flex: 1 1 100%;
-        margin-left: 0;
-      }
-    }
-    h4, h5, h6, ul {
-      width: 100%;
-    }
+    @extend %sec-dir-pis;
   }
   h3 {
     color: $color2;

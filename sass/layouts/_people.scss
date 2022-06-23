@@ -13,7 +13,16 @@
 
 }
 
-
+.pis {
+  section.directory.projectinvestigators {
+    @extend %sec-dir-pis;
+  }
+}
+.peoplepage {
+  section.directory.peoplewrap {
+    @extend %sec-dir-pis;
+  }
+}
 section.directory {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

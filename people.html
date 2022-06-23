@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cores
+tag: peoplepage
 ---
 
 
@@ -95,7 +96,7 @@ title: Cores
 
 
         {% for people in site.admin_core %}
-        {% include directory.html %}
+        {% include directory-core.html %}
         {% endfor %}
 
       </section>
@@ -109,7 +110,7 @@ title: Cores
       <section class="directory collapsenobs BBcore peoplewrap">
         <!-- site.data.LBRN-BBC-Core -->
         {% for people in site.bbc_core %}
-        {% include directory.html %}
+        {% include directory-core.html %}
         {% endfor %}
       </section>
     </div>
@@ -121,7 +122,8 @@ title: Cores
       <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin" aria-hidden="true"></i> -->
       <section class="directory collapsenobs MCcore peoplewrap">
         {% for people in site.MCBR_core %}
-        {% include directory.html %}
+        {% include directory-core.html %}
+
         {% endfor %}
       </section>
     </div>
@@ -134,7 +136,8 @@ title: Cores
       <section class="directory collapsenobs CRP peoplewrap">
         {% for people in site.data.pis_full %}
         {% if people.active == true %}
-        {% include n-directory-currentPi.html %}
+        {% include directory-core.html %}
+
         {% endif %}
         {% endfor %}
 
@@ -164,7 +167,8 @@ title: Cores
       <!-- <i class="collapsetstyle fa fa-2x fa-chevron-right icon-margin2" aria-hidden="true"></i> -->
       <section class="directory collapsenobs peoplewrap">
         {% for people in site.partner_Institutes %}
-        {% include directory-partner-institutes.html %}
+        {% include directory-core.html %}
+
         {% endfor %}
 
       </section>
@@ -177,7 +181,8 @@ title: Cores
       <section class="directory collapsenobs LBRNsc peoplewrap">
         <!-- site.data.LBRN-Steering-Committee -->
         {% for people in site.LBRN_Steering_Committee %}
-        {% include directory-committee-members.html %}
+        {% include directory-core.html %}
+
         {% endfor %}
 
       </section>
@@ -193,7 +198,8 @@ title: Cores
 
         {% for people in site.committee-members %}
           {% if people.category != "Former EAC Members"%}
-          {% include directory-committee-members.html %}
+          {% include directory-core.html %}
+
           {% endif %}
         {% endfor %}
 
@@ -202,7 +208,8 @@ title: Cores
 
           {% for people in site.committee-members %}
             {% if people.category == "Former EAC Members"%}
-            {% include directory-committee-members.html %}
+            {% include directory-core.html %}
+
             {% endif %}
           {% endfor %}
         </div>

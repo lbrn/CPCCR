@@ -44,5 +44,14 @@ tag: cores
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="service">
+        <section class="directory projectinvestigators">
+          {% for people in site.data.CPCCR-PCEC-Core %}
+          {% include directory-core.html %}
+          {% endfor %}
+        </section>
+      </div>
+    </div>
   </div>
 </div>

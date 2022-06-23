@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Project Investigators
+tag: pis
 ---
 
 <!-- <aside id="pifilters">
@@ -63,9 +64,9 @@ title: Project Investigators
           {% assign modcount = count | modulo: 2 %}
 
             {% if modcount == 1  %}
-                {% include pidirectory-currentPi.html %}
+                {% include directory-pi.html %}
               {% else %}
-                {% include pidirectory-currentPi.html %}
+                {% include directory-pi.html %}
             {% endif %}
             {%endif%}
   {% endfor %}
