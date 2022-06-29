@@ -1769,6 +1769,16 @@ section.directory.projectinvestigators article.person {
   }
 }
 
+.nihlinks a {
+  color: #A01A30;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+.nihlinks a:hover {
+  color: #646363;
+}
 .nihlinks h2 {
   font-size: 0.95em;
   margin: 1.2em 0 0.25em;
@@ -1926,7 +1936,7 @@ section.directory.projectinvestigators article.person {
   font-weight: 700;
   margin-top: 1.5em;
   font-family: "Ubuntu", sans-serif;
-  color: #A01A30;
+  color: #2d2d2d;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1939,7 +1949,7 @@ section.directory.projectinvestigators article.person {
   font-weight: 500 !important;
 }
 .news article .post-link, div.content .news article .post-link {
-  color: white;
+  color: #A01A30;
   font-size: 1em;
   font-family: "Ubuntu", sans-serif;
   float: right;
@@ -1964,7 +1974,7 @@ section.directory.projectinvestigators article.person {
   font-size: 1em;
   line-height: 1.2em;
   font-family: "Ubuntu", sans-serif;
-  color: #A01A30;
+  color: #2d2d2d;
 }
 .news article img, div.content .news article img {
   -moz-box-sizing: border-box;
@@ -2019,14 +2029,14 @@ section.directory.projectinvestigators article.person {
   color: #A01A30;
 }
 .news article.linkarticle:hover, div.content .news article.linkarticle:hover {
-  background-color: rgba(141, 141, 141, 0.3);
+  background-color: rgba(141, 141, 141, 0.2);
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .news article.linkarticle:hover .post-link, div.content .news article.linkarticle:hover .post-link {
-  color: #3d8340;
+  color: #646363;
 }
 .news article.linkarticle:hover h3.override, div.content .news article.linkarticle:hover h3.override {
   color: #A01A30;
@@ -2061,7 +2071,7 @@ section.directory.projectinvestigators article.person {
   color: #A01A30;
 }
 .news article:hover .post-link, div.content .news article:hover .post-link {
-  color: #3d8340;
+  color: #646363;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2412,7 +2422,7 @@ section.directory.projectinvestigators article.person {
   }
 }
 .events .view-all:hover {
-  color: white;
+  color: #646363;
 }
 .events.highlights section .details p.title {
   font-size: 28px;
@@ -3716,6 +3726,9 @@ section.directory.projectinvestigators article.person {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
+  -webkit-box-shadow: 0px -4px 10px -4px rgba(141, 141, 141, 0.2);
+     -moz-box-shadow: 0px -4px 10px -4px rgba(141, 141, 141, 0.2);
+          box-shadow: 0px -4px 10px -4px rgba(141, 141, 141, 0.2);
 }
 .navdropdown ul {
   max-width: 100%;
@@ -3841,7 +3854,7 @@ section.directory.projectinvestigators article.person {
 .navdropdown li a.button, .navdropdown li p.button {
   border: 2px solid #50B4D6;
   background-color: #50B4D6;
-  color: #646363;
+  color: white;
   -webkit-border-radius: 25px;
      -moz-border-radius: 25px;
           border-radius: 25px;
@@ -4644,17 +4657,6 @@ a.btn.grn:hover {
   background-color: rgba(141, 141, 141, 0.3);
 }
 
-.header h1 {
-  background-color: rgba(80, 180, 214, 0.5);
-  color: #A01A30;
-  line-height: 2.2;
-  padding-bottom: 5px;
-  margin-bottom: 0;
-  font-size: 2rem;
-  font-size: 32px;
-  padding-left: 20px;
-}
-
 .npi.soff.coff {
   display: none !important;
 }
@@ -4731,6 +4733,7 @@ a.btn.grn:hover {
   width: 100%;
   height: 2em;
   display: inline-block;
+  color: #646363;
 }
 .ptitle h3 {
   width: 25%;
@@ -6600,6 +6603,16 @@ section.cores #core-swap ul li:hover {
   margin-left: 0;
   margin-right: 0;
   position: relative;
+}
+.header h1 {
+  background-color: rgba(141, 141, 141, 0.2);
+  color: #A01A30;
+  line-height: 2.2;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-size: 32px;
+  padding-left: 20px;
 }
 
 /* end 0 */

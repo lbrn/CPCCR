@@ -11,8 +11,9 @@
   </head>
   <body>
 
-
     {% include dropdown.html %}
+
+
 
     <main class="layout">
       <section id="lbrnEventHeader">
@@ -23,23 +24,55 @@
         </div>
         <div class="caption">
           <!-- this h1 should contain the blog post title -->
-          <h1 class="post">{{page.title}}</h1>
-          {% if page.desc != nil %}
-          <p class="date-time">{{page.desc}}</p>
-          {% else %}
-
-          {% endif %}
+          <h1 class="post">{{page.author}}</h1>
           <!-- this is p is the post-date of the news item -->
           <!-- <p>{{page.date | date:" %B, %-d %Y"}}</p> -->
         </div>
         {% else %}
-          <h1>{{page.title}}</h1>
+          <h1>{{page.author}}</h1>
         {% endif %}
       </section>
       <!-- ALL USER INPUT CONTENT SHOULD BE CONTAINED WITHIN CONTENTS -->
-      <div class="content" >
-        {{content}}
+      <div class="content profilepage">
+
+        {% for pi in site.project_investigators %}
+          {% if pi.author == page.author %}
+          <div class="pubmed_div">
+            <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term={{ pi.author | replace:' ', '+' }}" class="pubmed-link">Link to Pubmed Publications</a>
+          </div>
+            <div class="page">
+              <p>
+                {{ pi.origin }}
+              </p>
+              <hr>
+              <div class="pi">
+                <div class="row">
+                  <div class="span6  profile-txt">
+                    <h2>Abstract</h2>
+                    <p class="long-text">
+                      {{ pi.abstract | newline_to_br }}
+                    </p>
+                    <p class="long-text">
+                      {{ pi.descrip | newline_to_br }}
+                    </p>
+                    <div class="abstractp">
+                      {{content}}
+                    </div>
+                  </div>
+                  <div class="profileimg">
+                    <img src="/images/people/{{ pi.image }}?v1.0" alt="{{pi.author}}" class="img-polaroid">
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+
       </div>
+
+
     </main>
 	{% include footer.html %}
     {% include scriptfooter.html %}

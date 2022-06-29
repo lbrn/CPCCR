@@ -278,7 +278,7 @@ function piFilter(){
 
           if (ac[i].style.display == "none")
             {
-              ac[i].style.display = "block";
+              ac[i].style.display = "flex";
             }
             else
             {
@@ -297,7 +297,7 @@ $(".pibc").click(function(){
       // bc[i].style.display ='none';
         if (bc[i].style.display == "none")
           {
-            bc[i].style.display = "block";
+            bc[i].style.display = "flex";
           }
           else
           {
@@ -318,7 +318,7 @@ $(".pibc").click(function(){
         // lsc[i].style.display ='none';
           if (lsc[i].style.display == "none")
             {
-              lsc[i].style.display = "block";
+              lsc[i].style.display = "flex";
               cmtrack++;
             }
             else
@@ -341,7 +341,7 @@ $(".pibc").click(function(){
         // le[i].style.display ='none';
           if (le[i].style.display == "none")
             {
-              le[i].style.display = "block";
+              le[i].style.display = "flex";
               cmtrack++;
             }
             else
@@ -364,7 +364,7 @@ $(".pibc").click(function(){
         // pai[i].style.display ='none';
           if (pai[i].style.display == "none")
             {
-              pai[i].style.display = "block";
+              pai[i].style.display = "flex";
             }
             else
             {
@@ -384,7 +384,7 @@ $(".pibc").click(function(){
         // crp[i].style.display ='none';
           if (crp[i].style.display == "none")
             {
-              crp[i].style.display = "block";
+              crp[i].style.display = "flex";
               pitrack++;
               // console.log(pitrack);
             }
@@ -414,7 +414,7 @@ $(".pibc").click(function(){
         // ppi[i].style.display ='none';
           if (ppi[i].style.display == "none")
             {
-              ppi[i].style.display = "block";
+              ppi[i].style.display = "flex";
               pitrack++;
               // console.log(pitrack);
             }
@@ -447,7 +447,7 @@ $(".pibc").click(function(){
         // collab[i].style.display ='none';
           // if (collab[i].style.display == "none")
             // {
-              // collab[i].style.display = "block";
+              // collab[i].style.display = "flex";
 
               // pitrack++;
               // console.log(pitrack);
@@ -471,7 +471,7 @@ $(".pibc").click(function(){
   //       // ppi[i].style.display ='none';
   //         if (ppi[i].style.display == "none")
   //           {
-  //             ppi[i].style.display = "block";
+  //             ppi[i].style.display = "flex";
   //             pitrack++;
   //             // console.log(pitrack);
   //           }
@@ -492,7 +492,7 @@ $(".pibc").click(function(){
         // mc[i].style.display ='none';
           if (mc[i].style.display == "none")
             {
-              mc[i].style.display = "block";
+              mc[i].style.display = "flex";
             }
             else
             {
@@ -527,7 +527,7 @@ function hidetitle(hidethis, trackthis){
     {
       if (hidethis[i].style.display == "none")
         {
-          hidethis[i].style.display = "block";
+          hidethis[i].style.display = "flex";
         }
     }//end for
   }

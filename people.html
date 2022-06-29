@@ -74,7 +74,7 @@ tag: peoplepage
 
 <div class="content-sidebar content ">
 
-  <h2 id="peopleCore">LBRN Core Personnel</h2>
+  <h2 id="peopleCore">Core Personnel</h2>
 
 
 
@@ -130,7 +130,7 @@ tag: peoplepage
         {% for people in site.data.pis_full %}
           {% if people.funding[0].name contains "Project" %}
 
-            {% include directory-pi.html %}
+            {% include directory-people.html %}
 
           {%endif%}
         {% endfor %}
@@ -145,7 +145,7 @@ tag: peoplepage
         {% for people in site.data.pis_full %}
           {% if people.funding[0].name contains "Pilot" %}
 
-            {% include directory-pi.html %}
+            {% include directory-people.html %}
 
           {%endif%}
         {% endfor %}

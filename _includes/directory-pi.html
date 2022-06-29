@@ -1,5 +1,20 @@
 <article class="person">
-  <a class="natural-link" target="_blank" href="{{people.link}}">
+  {% assign url_name = people.name | split: " " %}
+  {% assign url_full = "" %}
+  {% assign num = url_name | size | minus: 1 %}
+  {% assign url_full = url_full | append: url_name[num] | append: "_"  %}
+
+  {% assign num2 = num | minus: 1 %}
+  {% for i in (0..num2) %}
+    {% if i == 0 and num2 == 1 %}
+      {% assign url_full = url_full | append: url_name[i] | append: "_"  %}
+    {% else %}
+      {% assign url_full = url_full | append: url_name[i] %}
+    {% endif%}
+  {% endfor %}
+  <a class="natural-link" href="/pis/{{url_full | remove: "." }}.html">
+
+  <!-- <a class="natural-link" target="_blank" href="{{people.link}}"> -->
 
 
   <img src="images/people/PIs/{{people.image}}" alt="{{people.name}}'s portrait photo.">

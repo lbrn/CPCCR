@@ -357,6 +357,13 @@ section.directory {
 
 
 .nihlinks {
+  a {
+    color: $color2;
+    transition: $t;
+    &:hover {
+      color: $color1-d2;
+    }
+  }
   h2 {
     font-size: 0.95em;
     margin: 1.2em 0 0.25em;

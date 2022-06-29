@@ -1,4 +1,4 @@
 ---
-layout: pidatapage_full
+layout: pipage
 person: Sita Withers
 ---
