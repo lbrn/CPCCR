@@ -14,7 +14,8 @@
       width: unset;
       display: block;
       &:hover ul {
-        display: block;
+        display: flex;
+        flex-direction: column;
       }
       ul {
         position: absolute;
@@ -24,9 +25,12 @@
         z-index: 2000;
 
         li {
-          display: block;
           color: $primary;
-          width: 9em;
+          width: auto;
+          margin: 0;
+          display: flex;
+          overflow: auto;
+          flex: 1 0 100%;
           // background-color: red;
           a {
             display: block!important;
@@ -98,7 +102,7 @@
 
     li {
       ul {
-        max-width: 5em;
+        min-width: 5em;
         li {
           // margin-right: unset;
           // width: 100%;
@@ -115,6 +119,11 @@
             padding: 0.5em 0;
             text-align: left;
             padding-left: 0.7em;
+
+                  width: 100%;
+                  padding-right: 8px;
+                  padding-left: 8px;
+                  min-width: 5em;
           }
         }
       }
