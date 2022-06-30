@@ -51,10 +51,24 @@ tag: pis
   </div>
 </aside> -->
 
+<aside id="lbrnEventSidebar">
+  <button id="sideBug" class="btn" type="button" data-toggle="collapse" data-target="#lbrnEventSidebarUl" aria-expanded="false" aria-controls="collapseExample">
+    <img src="{{site.baseurl}}/images/menuClosed.png" alt="Menu Bug">
+  </button>
+  <div id="lbrnEventSidebarUl">
+    <ul>
+        <li><a href="#pis">Project Investigators</a></li>
+        <li><a href="#pilotis">Pilot Investigators</a></li>
 
+    </ul>
+  </div>
+  <div class="">
+    <li><a href="#">Top</a></li>
+  </div>
+</aside>
 <div class="content-sidebar content ">
 
-<h3>Project Investigators</h3>
+<h3 id="pis">Project Investigators</h3>
 <section class="directory projectinvestigators" >
   {% for people in site.data.pis_full %}
     {% if people.funding[0].name contains "Project" %}
@@ -66,7 +80,7 @@ tag: pis
 
 
 </section>
-<h3>Pilot Investigators</h3>
+<h3 id="pilotis" >Pilot Investigators</h3>
 <section class="directory projectinvestigators" >
 
   {% for people in site.data.pis_full %}
