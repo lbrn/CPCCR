@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Louisiana Biomedical Research Network
-description: LBRN is a collaborative network, organized to enhance the quality of biomedical research conducted throughout the state of Louisiana.
+title: CPCCR
+description: The Center for Pre-clinical Cancer Research 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lbrn.lsu.edu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cpccr.cobre.lsu.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 github_username: johnqlsu
