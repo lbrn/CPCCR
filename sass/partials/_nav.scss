@@ -68,7 +68,7 @@
 }
 
 .navdropdown {
-  background-color: $secondary;
+  background-color: $color2;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -138,9 +138,9 @@
           max-width: none;
         }
         &:hover {
-          background-color: $tertiary;
+          background-color: $color1;
           transition: all 0.2s;
-          color: white;
+          color: $color2;
 
         }
       }
@@ -183,9 +183,7 @@
       padding: 1em 0.25em;
       text-decoration: none;
       display: block;
-      /* color: red; */
       color: white;
-      color: $primary;
       text-decoration: none;
       padding: 1em 0.5em;
       display: block;
@@ -194,8 +192,8 @@
       margin-bottom: 0;
 
       &:hover {
-        // background-color: #b1dbb3;
-        color: white;
+        background-color: $color1;
+        color: $color2;
       }
 
       &.button {

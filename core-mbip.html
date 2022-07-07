@@ -99,5 +99,20 @@ tag: cores
 
       </div>
     </div>
+    <div class="row">
+      <div class="service">
+        <div class="text">
+          <h2>Project Investigators</h2>
 
+          <section class="directory collapsenobs Adcore peoplewrap">
+
+
+            {% for people in site.data.CPCCR-adminCore %}
+            {% include directory-about.html %}
+            {% endfor %}
+
+          </section>
+        </div>
+      </div>
+    </div>
   </div>

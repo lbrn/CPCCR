@@ -1114,9 +1114,6 @@ main.research a.btn:hover {
   background-color: rgba(80, 180, 214, 0.5);
   background-color: transparent;
 }
-.services .row .service:only-child img:first-child {
-  margin-left: auto;
-}
 .services .row .service.left {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1414,6 +1411,7 @@ section.directory h5 {
   margin-bottom: 0;
   font-size: 0.7em;
   padding-bottom: 0.5em;
+  padding-left: 0;
 }
 section.directory h6 {
   font-size: 0.6em;
@@ -3739,7 +3737,7 @@ section.directory.projectinvestigators article.person {
 }
 
 .navdropdown {
-  background-color: white;
+  background-color: #A01A30;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -3825,12 +3823,12 @@ section.directory.projectinvestigators article.person {
   }
 }
 .navdropdown ul li a:hover, .navdropdown ul li p:hover {
-  background-color: #A01A30;
+  background-color: white;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
-  color: white;
+  color: #A01A30;
 }
 .navdropdown ul li ul li a:hover {
   background-color: rgba(141, 141, 141, 0.4);
@@ -3864,9 +3862,7 @@ section.directory.projectinvestigators article.person {
   padding: 1em 0.25em;
   text-decoration: none;
   display: block;
-  /* color: red; */
   color: white;
-  color: #A01A30;
   text-decoration: none;
   padding: 1em 0.5em;
   display: block;
@@ -3875,7 +3871,8 @@ section.directory.projectinvestigators article.person {
   margin-bottom: 0;
 }
 .navdropdown li a:hover, .navdropdown li p:hover {
-  color: white;
+  background-color: white;
+  color: #A01A30;
 }
 .navdropdown li a.button, .navdropdown li p.button {
   border: 2px solid #50B4D6;
@@ -4467,10 +4464,10 @@ body footer .quicklinks .title {
   }
   body footer .quicklinks ul {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 1 30%;
+    -webkit-flex: 1 1 33%;
        -moz-box-flex: 1;
-        -ms-flex: 1 1 30%;
-            flex: 1 1 30%;
+        -ms-flex: 1 1 33%;
+            flex: 1 1 33%;
     margin-right: 20px;
     margin-bottom: 20px;
   }
@@ -6876,6 +6873,7 @@ section.cores #core-swap ul li:hover {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 57.14286%;
+    width: 67%;
     float: left;
     margin-right: 2.85714%;
     padding-left: 5%;
@@ -7147,7 +7145,7 @@ section.cores #core-swap ul li:hover {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     /* max-width: 80%; */
-    max-width: 1200px;
+    max-width: 1440px;
     /* sized of content */
     margin-left: auto;
     margin-right: auto;
