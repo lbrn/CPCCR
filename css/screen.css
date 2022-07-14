@@ -2019,9 +2019,9 @@ section.directory.projectinvestigators article.person {
 .news article.featured, div.content .news article.featured {
   padding: 0.5em 0.5em 0.75em 0.5em;
   background-color: rgba(141, 141, 141, 0.3);
-  -webkit-border-radius: 3%;
-     -moz-border-radius: 3%;
-          border-radius: 3%;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
 }
 .news article.featured h3, div.content .news article.featured h3 {
   color: #A01A30;
