@@ -704,6 +704,10 @@ header #navBug {
   float: right;
 }
 
+header #navBug img {
+  max-height: 50px;
+  margin-top: 25px;
+}
 header #navBug:hover {
   cursor: pointer;
 }
