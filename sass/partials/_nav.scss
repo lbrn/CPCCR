@@ -198,8 +198,11 @@
 
       &.button {
         border: 2px solid $color3;
-        background-color: $color3;
-        color: white;
+        // background-color: $color3;
+        // color: white;
+        background-color: white;
+        border-color: white;
+        color: $primary;
         border-radius: 25px;
         /* color: white; */
         /* color: red; */
@@ -209,8 +212,7 @@
         float: none;
 
         &:hover {
-          background-color: $color1-d2;
-          border-color: $color1-d2;
+          background-color: $color2;
           color: white;
         }
       }

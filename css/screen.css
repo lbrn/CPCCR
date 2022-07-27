@@ -3876,8 +3876,9 @@ section.directory.projectinvestigators article.person {
 }
 .navdropdown li a.button, .navdropdown li p.button {
   border: 2px solid #50B4D6;
-  background-color: #50B4D6;
-  color: white;
+  background-color: white;
+  border-color: white;
+  color: #A01A30;
   -webkit-border-radius: 25px;
      -moz-border-radius: 25px;
           border-radius: 25px;
@@ -3889,8 +3890,7 @@ section.directory.projectinvestigators article.person {
   float: none;
 }
 .navdropdown li a.button:hover, .navdropdown li p.button:hover {
-  background-color: #646363;
-  border-color: #646363;
+  background-color: #A01A30;
   color: white;
 }
 .navdropdown li.right {
