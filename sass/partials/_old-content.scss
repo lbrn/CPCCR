@@ -536,15 +536,12 @@ body {
 
   a {
     text-decoration: none;
-    color: $secondary;
+    color: $color2;
+    transition: 0.3s;
     &:hover {
-      color: $viewall;
-    }
-    &.green {
-      color: $viewall;
-      &:hover {
-        color: darken($viewall, 10%);
-      }
+      color: $color1-d3;
+
+      text-decoration: underline;
     }
   }
 

@@ -4388,6 +4388,7 @@ body footer a {
   -o-transition: 0.4s;
   -moz-transition: 0.4s;
   transition: 0.4s;
+  color: white;
 }
 body footer span {
   font-style: italic;
@@ -5063,16 +5064,15 @@ body h1 {
 }
 body a {
   text-decoration: none;
-  color: white;
+  color: #A01A30;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
 }
 body a:hover {
-  color: white;
-}
-body a.green {
-  color: white;
-}
-body a.green:hover {
-  color: #e6e6e6;
+  color: #2d2d2d;
+  text-decoration: underline;
 }
 @media (max-width: 667px) {
   body.homepage {
@@ -5237,8 +5237,8 @@ header #navBug {
 }
 
 header #navBug img {
-  max-height: 50px;
-  margin-top: 25px;
+  max-height: 70px;
+  margin-top: 10px;
 }
 
 header #navBug:hover {
