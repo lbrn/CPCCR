@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Project Investigators
+tag: pis
 ---
-
 
 <aside id="lbrnEventSidebar">
   <button id="sideBug" class="btn" type="button" data-toggle="collapse" data-target="#lbrnEventSidebarUl" aria-expanded="false" aria-controls="collapseExample">
@@ -19,29 +19,32 @@ title: Project Investigators
     <li><a href="#">Top</a></li>
   </div>
 </aside>
-
-
 <div class="content-sidebar content ">
 
-
+<h3 id="pis">Project Investigators</h3>
 <section class="directory projectinvestigators" >
-  {% assign count = 0 %}
-
   {% for people in site.data.pis_full %}
-        {% if people.active %}
-        {% assign count = count | plus: 1 %}
-          {% assign modcount = count | modulo: 2 %}
+    {% if people.funding[0].name contains "Project" %}
 
-            {% if modcount == 1  %}
-                {% include pidirectory-currentPi.html %}
-              {% else %}
-                {% include pidirectory-currentPi.html %}
-            {% endif %}
-            {%endif%}
+      {% include directory-pi.html %}
+
+    {%endif%}
   {% endfor %}
 
 
 </section>
+<h3 id="pilotis" >Pilot Investigators</h3>
+<section class="directory projectinvestigators" >
 
+  {% for people in site.data.pis_full %}
+    {% if people.funding[0].name contains "Pilot" %}
+
+      {% include directory-pi.html %}
+
+    {%endif%}
+  {% endfor %}
+
+
+</section>
 </div>
 <section class="directory">
