@@ -24,12 +24,17 @@
         </div>
         <div class="caption">
           <!-- this h1 should contain the blog post title -->
-          <h1 class="post">{{pi.title}}</h1>
+          <a target="_blank" href="{{pi.link}}">
+            <h1 class="post">{{pi.title}}</h1>
+          </a>
           <!-- this is p is the post-date of the news item -->
           <!-- <p>{{page.date | date:" %B, %-d %Y"}}</p> -->
         </div>
         {% else %}
-          <h1 class="pititle">{{page.person}}</h1>
+
+          <a target="_blank" href="{{pi.link}}">
+            <h1 class="pititle">{{page.person}}</h1>
+          </a>
         {% endif %}
       </section>
       <!-- ALL USER INPUT CONTENT SHOULD BE CONTAINED WITHIN CONTENTS -->
@@ -95,10 +100,43 @@
 
                     {% if pi.ftimage != nil %}
                   <div class="profileimg ft">
-                    <a target="_blank" href="{{pi.link}}">
                       <img src="/images/people/PIs/{{ pi.ftimage }}?v1.2" alt="{{pi.person}}" class="img-polaroid">
-                    </a>
                   </div>
+
+                    {% else %}
+                    <div class="profileimg">
+                        <img src="/images/people/PIs/{{ pi.image }}?v1.2" alt="{{pi.person}}" class="img-polaroid">
+                    </div>
+                    {% endif %}
+                    <div class="profile-txt">
+                  {% if pi.biosketch != nil %}
+                  <br>
+                  <h2 class="profile">Biosketch</h2>
+                  {% endif %}
+ 	               </div>
+                 <div class="abstractp">
+                  <p class="long-text">
+                    {{ pi.biosketch | newline_to_br }}
+                  </p>
+
+                 </div>
+                  <div class="profile-txt">
+                  {% if pi.abstract != nil %}
+                  <br>
+                  <h2 class="profile">Abstract</h2>
+                  {% endif %}
+ 	               </div>
+
+                </div>
+                <br>
+                <div class="abstractp">
+                  <p class="long-text">
+                    {{ pi.abstract | newline_to_br }}
+                  </p>
+                  <p class="long-text">
+                    {{ pi.descrip | newline_to_br }}
+                  </p>
+                </div>
 
                     {% else %}
                     <div class="profileimg">
