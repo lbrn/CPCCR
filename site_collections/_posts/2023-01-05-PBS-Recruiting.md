@@ -3,7 +3,7 @@ layout: post
 title: Department of Pathobiological Sciences LSU Vet Med seeking Ph.D. students.
 featuredImageUrl: /images/postImages/010123_PBS_GRAD_RECRUIT_KGK.png
 featuredImageUrlSquare: /images/postImages/010123_PBS_GRAD_RECRUIT_KGK.png
-tags: news
+tags: featured
 excerpt_separator: <!--more-->
 eventDate:  
 textOnUrl: Public University Partnership Program (PUPP)

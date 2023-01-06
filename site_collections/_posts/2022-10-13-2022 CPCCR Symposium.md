@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2022 Center for Pre-Clinical Cancer Research Symposium
-tags: news
+tags: featured
 featuredImageUrl: images/postImages/2022 CPCCR Symposium.png
 featuredImageUrlSquare: images/postImages/2022 CPCCR Symposium.png
 excerpt_separator: <!--more-->
