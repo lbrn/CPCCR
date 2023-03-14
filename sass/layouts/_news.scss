@@ -125,11 +125,11 @@
       padding-left:0;
       border-left: none;
       &.override {
+        color: $primary;
         margin-left: 0;
         padding-left: 0;
         font-size: 1.75em;
         border: none;
-        // color: $primary;
         transition: all .3s ease-in-out;
         &:hover {
           // cursor: auto;
