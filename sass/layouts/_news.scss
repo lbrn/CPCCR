@@ -117,7 +117,7 @@
       margin-left: 0;
       margin-right: 0;
       font-family: $titleFont;
-      color: $secondary;
+      color: $primary;
       font-weight: 700;
       font-size: 2em;
       line-height: 1.25em;
@@ -172,7 +172,7 @@
         background-color: $pentia;
         transition: all .3s ease-in-out;
         h3 {
-          color: $secondary;
+          color: $primary;
           cursor: pointer;
           transition: all .3s ease-in-out;
           &.override {

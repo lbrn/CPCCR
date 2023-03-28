@@ -1995,7 +1995,7 @@ section.directory.projectinvestigators article.person {
   margin-left: 0;
   margin-right: 0;
   font-family: "Open Sans Condensed", sans-serif;
-  color: white;
+  color: #A01A30;
   font-weight: 700;
   font-size: 2em;
   line-height: 1.25em;
@@ -2059,7 +2059,7 @@ section.directory.projectinvestigators article.person {
   transition: all 0.3s ease-in-out;
 }
 .news article:hover h3, div.content .news article:hover h3 {
-  color: white;
+  color: #A01A30;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
