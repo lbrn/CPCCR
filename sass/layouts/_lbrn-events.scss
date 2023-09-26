@@ -17,9 +17,10 @@
     .btn {
       background-color: $primary;
       color: white;
+      font-weight: 900;
       &:hover {
-        color: $primary;
-        background-color: $secondary;
+        // color: $primary;
+        background-color: $color1-d1;
       }
     }
 
