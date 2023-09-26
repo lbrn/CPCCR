@@ -2819,6 +2819,14 @@ section.directory.projectinvestigators article.person {
   position: relative;
   margin-bottom: 1.2em;
 }
+.content .eventsection .btn {
+  background-color: #A01A30;
+  color: white;
+}
+.content .eventsection .btn:hover {
+  color: #A01A30;
+  background-color: white;
+}
 .content .eventsection h2 {
   /* padding-right: 1.5em; */
   margin-top: unset;
@@ -3549,7 +3557,7 @@ section.directory.projectinvestigators article.person {
 
 @media print {
   .cc-revoke,
-.cc-window {
+  .cc-window {
     display: none;
   }
 }
@@ -3566,8 +3574,8 @@ section.directory.projectinvestigators article.person {
     bottom: 0;
   }
   .cc-window.cc-banner,
-.cc-window.cc-left,
-.cc-window.cc-right {
+  .cc-window.cc-left,
+  .cc-window.cc-right {
     left: 0;
     right: 0;
   }
@@ -5803,16 +5811,16 @@ img.fit {
 }
 @media (max-width: 667px) {
   .four-card-responsive section,
-.three-card-responsive section,
-.two-card-responsive section {
+  .three-card-responsive section,
+  .two-card-responsive section {
     width: 90%;
     margin: 5%;
   }
 }
 @media (max-width: 860px) {
   .four-card-responsive,
-.three-card-responsive,
-.two-card-responsive {
+  .three-card-responsive,
+  .two-card-responsive {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -6901,8 +6909,6 @@ section.cores #core-swap ul li:hover {
     -webkit-appearance: none;
     width: 7px;
   }
-}
-@media (min-width: 667px) {
   #newsSidebar::-webkit-scrollbar-thumb {
     -webkit-border-radius: 4px;
             border-radius: 4px;
@@ -6910,8 +6916,6 @@ section.cores #core-swap ul li:hover {
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
             box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
   }
-}
-@media (min-width: 667px) {
   #newsSidebar ul {
     margin-left: 0;
   }
@@ -6939,10 +6943,8 @@ section.cores #core-swap ul li:hover {
     -moz-transition: background-color 0.1s;
     transition: background-color 0.1s;
   }
-}
-@media (min-width: 667px) {
   #lbrnEventHeader .imagebox,
-#lbrnHighlightHeader .imagebox {
+  #lbrnHighlightHeader .imagebox {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -6956,12 +6958,12 @@ section.cores #core-swap ul li:hover {
     display: flex;
   }
   #lbrnEventHeader .imagebox img,
-#lbrnHighlightHeader .imagebox img {
+  #lbrnHighlightHeader .imagebox img {
     margin-left: auto;
     margin-right: auto;
   }
   #lbrnEventHeader div.caption,
-#lbrnHighlightHeader div.caption {
+  #lbrnHighlightHeader div.caption {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -6971,21 +6973,19 @@ section.cores #core-swap ul li:hover {
     min-height: 100%;
   }
   #lbrnEventHeader div.caption h1,
-#lbrnHighlightHeader div.caption h1 {
+  #lbrnHighlightHeader div.caption h1 {
     font-size: 2.4em;
     line-height: 1.2em;
     font-family: "Open Sans Condensed", sans-serif;
     color: #A01A30;
   }
   #lbrnEventHeader div.caption p,
-#lbrnHighlightHeader div.caption p {
+  #lbrnHighlightHeader div.caption p {
     font-size: 1.2em;
     font-family: "Ubuntu", sans-serif;
     color: #A01A30;
     margin-top: 0.5em;
   }
-}
-@media (min-width: 667px) {
   #matchHeight {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -6994,18 +6994,12 @@ section.cores #core-swap ul li:hover {
     float: left;
     margin-right: 2.85714%;
   }
-}
-@media (min-width: 667px) {
   .collapsenobs {
     height: inherit;
   }
-}
-@media (min-width: 667px) {
   #mobileChooseType {
     display: none;
   }
-}
-@media (min-width: 667px) {
   div.chooseTypeInline {
     display: -webkit-box;
     display: -webkit-flex;
@@ -7013,8 +7007,6 @@ section.cores #core-swap ul li:hover {
     display: -ms-flexbox;
     display: flex;
   }
-}
-@media (min-width: 667px) {
   header h1 {
     display: block;
   }
@@ -7046,7 +7038,7 @@ section.cores #core-swap ul li:hover {
 }
 @media (min-width: 1224px) {
   #lbrnEventHeader,
-#lbrnHighlightHeader {
+  #lbrnHighlightHeader {
     padding-left: unset;
   }
   .slide {
